@@ -16,15 +16,10 @@
 	int dest;
 };*/
 
-const int TEST_PASS = 1;
-const int TEST_START = 200;
-const int TEST_DEST = 2;
 
-#define INVALID 1
-#define VALID 0
 
 int issue_request(int passenger_type, int start_floor, int destination_floor)
-{
+{  
 	struct Passenger * passenger;
 
 	switch(passenger_type) 
@@ -41,7 +36,7 @@ int issue_request(int passenger_type, int start_floor, int destination_floor)
 		      break;
 		   }
 
-		   case RSRVICE:
+		   case RSERVICE:
 		   {
 		      passenger = init_pass(RSERVICE_LOAD,start_floor,destination_floor);
 		      break;
@@ -57,7 +52,7 @@ int issue_request(int passenger_type, int start_floor, int destination_floor)
 		   		return INVALID;
 		}
 
-	if (start_floor < MIN_FLOOR || destination_floor > MAX_FLOOR)
+	if (start_floor < MIN_FLOOR || start_floor > MAX_FLOOR || destination_floor > MAX_FLOOR || destination_floor < MIN_FLOOR)
 		return INVALID;
 	else
 		addPassenger(passenger,elevator);
@@ -65,10 +60,6 @@ int issue_request(int passenger_type, int start_floor, int destination_floor)
 	return VALID;
 }
 
-int main()
-{
-	printf("Test %d \n" , issue_request(TEST_PASS,TEST_START,TEST_DEST));
-}
 
 struct Passenger * init_pass(struct Load load, int start, int dest)
 {

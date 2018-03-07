@@ -17,6 +17,15 @@ Current Load: 0 passenger units, 0 weight units
 */
 
 
+const struct Load ADULT_LOAD = {ADULT_P_UNIT, ADULT_W_UNIT};
+const struct Load CHILD_LOAD = {CHILD_P_UNIT, CHILD_W_UNIT};
+const struct Load RSERVICE_LOAD = {RSERVICE_P_UNIT, RSERVICE_W_UNIT};
+const struct Load BELLHOP_LOAD = {BELLHOP_P_UNIT, BELLHOP_W_UNIT};
+struct Elevator * elevator;
+static int status = 0;
+
+
+// MAIN FOR TESTING // 
 int main()
 {
 	printf("(start)status: %d \n" , start_elevator());
@@ -26,9 +35,22 @@ int main()
 	printf("(stop)status: %d\n" , stop_elevator());
 	printf("(start)status: %d\n" , start_elevator());
 	printf("(start)status: %d\n" , start_elevator());
-}
 
-static int status = 0;
+
+	printf("Valid: %d \n" , issue_request(ADULT,1,2));
+	printf("Valid: %d \n" , issue_request(RSERVICE,2,3));
+	printf("Valid: %d \n" , issue_request(CHILD,1,100));
+	printf("Valid: %d \n" , issue_request(BELLHOP,10,1));
+	printf("Valid: %d \n" , issue_request(ADULT,6,2));
+
+	// TESTS //
+	//printf("\nLoad before add -  p_units: %d w_units: %f\n", elevator->cur_load.p_units,elevator->cur_load.w_units);
+	// add_load(&elevator->cur_load, ADULT_LOAD);
+	// add_load(&elevator->cur_load, CHILD_LOAD);
+	// add_load(&elevator->cur_load, BELLHOP_LOAD);
+	printf("Load after add -  p_units: %d w_units: %f\n", elevator->cur_load.p_units,elevator->cur_load.w_units);
+
+}
 
 int start_elevator()
 {	
@@ -40,14 +62,6 @@ int start_elevator()
 	}
 	else
 		return status;
-
-	// TESTS //
-	//printf("\nLoad before add -  p_units: %d w_units: %f\n", elevator->cur_load.p_units,elevator->cur_load.w_units);
-	add_load(&elevator->cur_load, ADULT_LOAD);
-	add_load(&elevator->cur_load, CHILD_LOAD);
-	add_load(&elevator->cur_load, BELLHOP_LOAD);
-	printf("Load after add -  p_units: %d w_units: %f\n", elevator->cur_load.p_units,elevator->cur_load.w_units);
-	// TESTS // 
 }
 
 //Description: Deactivates the elevator.
@@ -66,6 +80,7 @@ int stop_elevator()
 
 	return status;
 }
+
 
 // Helper Subroutines
 struct Elevator * init_elevator(struct Elevator * elevator)
