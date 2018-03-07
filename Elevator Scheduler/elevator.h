@@ -21,7 +21,6 @@
 #define DEFAULT_P_UNIT 0
 #define DEFAULT_W_UNIT 0
 
-
 //An adult counts as 1 passenger unit and 1 weight unit
 #define ADULT_P_UNIT 1
 #define ADULT_W_UNIT 1
@@ -52,13 +51,6 @@ struct Load
 	double w_units;
 };
 
-struct Elevator
-{
-	enum State state;
-	int cur_floor;
-	struct Load cur_load;
-};
-
 struct Passenger
 {
 	struct Load load;
@@ -66,16 +58,32 @@ struct Passenger
 	int dest;
 };
 
+struct Elevator
+{
+	enum State state;
+	int cur_floor;
+	struct Load cur_load;
+	struct Passenger requests[1000];
+};
+
+
+
 const struct Load ADULT_LOAD = {ADULT_P_UNIT, ADULT_W_UNIT};
 const struct Load CHILD_LOAD = {CHILD_P_UNIT, CHILD_W_UNIT};
 const struct Load RSERVICE_LOAD = {RSERVICE_P_UNIT, RSERVICE_W_UNIT};
 const struct Load BELLHOP_LOAD = {BELLHOP_P_UNIT, BELLHOP_W_UNIT};
 
+int elevatorstatus;
+
+struct Elevator * elevator;
+
 int start_elevator();
-void init_elevator(struct Elevator * elevator);
-struct Passenger init_pass(struct Load load, int start, int dest);
+int stop_elevator();
+struct Elevator *  init_elevator(struct Elevator * elevator);
+struct Passenger * init_pass(struct Load load, int start, int dest);
 struct Load* load_constructor(int passenger_unit, double weight_unit);
-void add_load(struct Load * total_load , struct Load add_load);
+bool add_load(struct Load * total_load , struct Load add_load);
 void remove_load(struct Load * total_load , struct Load add_load);
 bool too_heavy(struct Load pload, struct Load eload);
+int addPassenger(struct Passenger *, struct Elevator *);
 

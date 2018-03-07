@@ -25,7 +25,7 @@ const int TEST_DEST = 2;
 
 int issue_request(int passenger_type, int start_floor, int destination_floor)
 {
-	struct Passenger passenger;
+	struct Passenger * passenger;
 
 	switch(passenger_type) 
 		{
@@ -60,7 +60,7 @@ int issue_request(int passenger_type, int start_floor, int destination_floor)
 	if (start_floor < MIN_FLOOR || destination_floor > MAX_FLOOR)
 		return INVALID;
 	else
-		//add passenger to queue waiting for elevator
+		addPassenger(passenger,elevator);
 
 	return VALID;
 }
@@ -70,10 +70,47 @@ int main()
 	printf("Test %d \n" , issue_request(TEST_PASS,TEST_START,TEST_DEST));
 }
 
-struct Passenger init_pass(struct Load load, int start, int dest)
+struct Passenger * init_pass(struct Load load, int start, int dest)
 {
-	struct Passenger passenger = {load,start,dest};
+	struct Passenger * passenger = (struct Passenger*)malloc(sizeof(struct Passenger));;
+	passenger->load = load;
+	passenger->start = start;
+	passenger->dest = dest;
 	return passenger;
 }
 
+bool too_heavy(struct Load pload, struct Load eload)
+{
+	return (pload.p_units + eload.p_units > MAX_P_LOAD ||  pload.w_units + eload.w_units > MAX_W_LOAD);
+}
+
+int addPassenger(struct Passenger * passenger, struct Elevator * elevator)
+{
+	int queue_num = 0;
+	if (add_load(&elevator->cur_load,passenger->load))
+	{	
+		//queue_num = add_to_queue(struct Passenger * passenger);
+		return queue_num;
+	}
+	else
+		return -1;
+}
+
+bool add_load(struct Load * total_load , struct Load add_load) 
+{ 
+	if (!too_heavy(add_load,*total_load))
+    {
+  		total_load->p_units += add_load.p_units;
+  		total_load->w_units += add_load.w_units;
+  		return true;
+	}
+
+	return false;
+}
+
+void remove_load(struct Load * total_load , struct Load add_load) 
+{ 
+  total_load->p_units -= add_load.p_units;
+  total_load->w_units -= add_load.w_units;
+}
 
