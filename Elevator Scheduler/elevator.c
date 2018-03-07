@@ -22,12 +22,15 @@ const struct Load CHILD_LOAD = {CHILD_P_UNIT, CHILD_W_UNIT};
 const struct Load RSERVICE_LOAD = {RSERVICE_P_UNIT, RSERVICE_W_UNIT};
 const struct Load BELLHOP_LOAD = {BELLHOP_P_UNIT, BELLHOP_W_UNIT};
 struct Elevator * elevator;
-static int status = 0;
+int status = 0;
 
 
 // MAIN FOR TESTING // 
 int main()
 {
+
+	printf("Valid: %d \n" , issue_request(ADULT,1,2));
+
 	printf("(start)status: %d \n" , start_elevator());
 	printf("(start)status: %d\n" , start_elevator());
 	printf("(start)status: %d\n" , start_elevator());
@@ -57,8 +60,16 @@ int start_elevator()
 
 	if (status == 0)
 	{
-		elevator = init_elevator(elevator);
-		return status++;
+		elevator = init_elevator(elevator,&status);
+
+		if (status == 0)
+			return status++;
+		else
+		{
+			int ret = status;
+			status = 0;
+			return ret;
+		}
 	}
 	else
 		return status;
@@ -83,9 +94,16 @@ int stop_elevator()
 
 
 // Helper Subroutines
-struct Elevator * init_elevator(struct Elevator * elevator)
+struct Elevator * init_elevator(struct Elevator * elevator,int * status)
 {
 	elevator = (struct Elevator*)malloc(sizeof(struct Elevator));
+
+	if (elevator == NULL)
+	{
+		*status = -errno;
+		return NULL;
+	}
+
 	elevator->state = DEFAULT_STATE; // IDLE
 	elevator->cur_floor = DEFAULT_FLOOR;  // 1
 	elevator->cur_load.p_units = DEFAULT_P_UNIT; // 0

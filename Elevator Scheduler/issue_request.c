@@ -20,6 +20,9 @@
 
 int issue_request(int passenger_type, int start_floor, int destination_floor)
 {  
+	if (status == 0)
+		return INVALID;
+	
 	struct Passenger * passenger;
 
 	switch(passenger_type) 

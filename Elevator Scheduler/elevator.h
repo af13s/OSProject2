@@ -77,6 +77,7 @@ extern const struct Load CHILD_LOAD;
 extern const struct Load RSERVICE_LOAD;
 extern const struct Load BELLHOP_LOAD;
 extern struct Elevator * elevator;
+extern int status;
 
 //Main Routines
 int start_elevator();
@@ -84,7 +85,7 @@ int stop_elevator();
 int issue_request(int passenger_type, int start_floor, int destination_floor);
 
 // Helper Subroutines
-struct Elevator *  init_elevator(struct Elevator * elevator);
+struct Elevator *  init_elevator(struct Elevator * elevator, int * status);
 struct Passenger * init_pass(struct Load load, int start, int dest);
 struct Load* load_constructor(int passenger_unit, double weight_unit);
 bool add_load(struct Load * total_load , struct Load add_load);
