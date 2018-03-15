@@ -1,0 +1,1 @@
+cmd_/usr/src/test_kernel/example8_multiple_files/syscall.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /usr/src/test_kernel/example8_multiple_files/syscall.ko /usr/src/test_kernel/example8_multiple_files/syscall.o /usr/src/test_kernel/example8_multiple_files/syscall.mod.o ;  true

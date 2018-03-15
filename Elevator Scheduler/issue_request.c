@@ -22,7 +22,7 @@ int issue_request(int passenger_type, int start_floor, int destination_floor)
 {  
 	if (status == 0)
 		return INVALID;
-	
+
 	struct Passenger * passenger;
 
 	switch(passenger_type) 
@@ -90,6 +90,15 @@ int addPassenger(struct Passenger * passenger, struct Elevator * elevator)
 		return -1;
 }
 
+int removePassenger(struct Passenger * passenger, struct Elevator * elevator)
+{
+	int queue_num = 0;
+	remove_load(&elevator->cur_load,passenger->load)	
+	//queue_num = remove_from_queue(struct Passenger * passenger);
+	
+	return queue_num;
+}
+
 bool add_load(struct Load * total_load , struct Load add_load) 
 { 
 	if (!too_heavy(add_load,*total_load))
@@ -107,4 +116,47 @@ void remove_load(struct Load * total_load , struct Load add_load)
   total_load->p_units -= add_load.p_units;
   total_load->w_units -= add_load.w_units;
 }
+
+
+// Code to edit to use for this program -- adding and removing from queue
+/*
+int add_child(pid_t * queue, pid_t child)
+{
+	int i=1;
+	for ( i = 1; i < queue[0]; i++)
+		if (queue[i] == 0)
+		{
+			queue[i] = child;
+			return i;
+		}
+
+	return 0;
+}
+
+int remove_child(pid_t * queue, pid_t child)
+{
+	int i=1;
+	for ( i = 1; i < queue[0]; i++)
+		if (queue[i] == child)
+		{
+			queue[i] = 0;
+			return i;
+		}
+
+	return 0;
+}
+
+void addbgcmd(int queue_num,struct PCMD pcmd)
+{
+	pcmd.originalcmd[strlen(pcmd.originalcmd)-2] = '\0';
+	pcmd.bgcmds[queue_num] = (char*) calloc(strlen(pcmd.originalcmd+1), sizeof(char));
+	strcpy(pcmd.bgcmds[queue_num], pcmd.originalcmd);
+}
+
+void removebgcmd(int queue_num,struct PCMD pcmd)
+{
+	free(pcmd.bgcmds[queue_num]);
+	pcmd.bgcmds[queue_num] = NULL;
+}
+*/
 

@@ -88,7 +88,11 @@ int issue_request(int passenger_type, int start_floor, int destination_floor);
 struct Elevator *  init_elevator(struct Elevator * elevator, int * status);
 struct Passenger * init_pass(struct Load load, int start, int dest);
 struct Load* load_constructor(int passenger_unit, double weight_unit);
+
+bool too_heavy(struct Load pload, struct Load eload);
+
+int addPassenger(struct Passenger *, struct Elevator *);
+int removePassenger(struct Passenger * passenger, struct Elevator * elevator);
+
 bool add_load(struct Load * total_load , struct Load add_load);
 void remove_load(struct Load * total_load , struct Load add_load);
-bool too_heavy(struct Load pload, struct Load eload);
-int addPassenger(struct Passenger *, struct Elevator *);

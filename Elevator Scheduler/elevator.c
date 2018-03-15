@@ -1,22 +1,5 @@
 #include "elevator.h"
 
-/* Activates the elevator for service. */
-/* From that point onward, the elevator exists and will begin to service requests. */
-/*
-This system call will return
-1 if the elevator is already active
-0 for a successful elevator start,
--ERRORNUM if it could not initialize (e.g. -ENOMEM if it couldn’t allocate memory).
-*/
-
-/*
-Initialize an elevator as follows:
-State: IDLE
-Current floor: 1
-Current Load: 0 passenger units, 0 weight units
-*/
-
-
 const struct Load ADULT_LOAD = {ADULT_P_UNIT, ADULT_W_UNIT};
 const struct Load CHILD_LOAD = {CHILD_P_UNIT, CHILD_W_UNIT};
 const struct Load RSERVICE_LOAD = {RSERVICE_P_UNIT, RSERVICE_W_UNIT};
@@ -55,6 +38,24 @@ int main()
 
 }
 
+
+/* Activates the elevator for service. */
+/* From that point onward, the elevator exists and will begin to service requests. */
+/*
+This system call will return
+1 if the elevator is already active
+0 for a successful elevator start,
+-ERRORNUM if it could not initialize (e.g. -ENOMEM if it couldn’t allocate memory).
+*/
+
+/*
+Initialize an elevator as follows:
+State: IDLE
+Current floor: 1
+Current Load: 0 passenger units, 0 weight units
+*/
+
+
 int start_elevator()
 {	
 
@@ -84,7 +85,7 @@ int start_elevator()
 int stop_elevator()
 {
 	if (status == 1)
-		//if (deactivating())
+		//if (deactivating()) // check if queue is empty
 			//return status;
 		//else
 			 --status;

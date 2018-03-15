@@ -1,0 +1,1 @@
+cmd_/usr/src/test_kernel/example2_procfs/hello_proc.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /usr/src/test_kernel/example2_procfs/hello_proc.ko /usr/src/test_kernel/example2_procfs/hello_proc.o /usr/src/test_kernel/example2_procfs/hello_proc.mod.o ;  true

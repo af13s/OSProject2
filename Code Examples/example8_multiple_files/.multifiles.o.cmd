@@ -1,0 +1,1 @@
+cmd_/usr/src/test_kernel/example8_multiple_files/multifiles.o := ld -m elf_x86_64   -r -o /usr/src/test_kernel/example8_multiple_files/multifiles.o /usr/src/test_kernel/example8_multiple_files/src/main.o /usr/src/test_kernel/example8_multiple_files/src/proc.o /usr/src/test_kernel/example8_multiple_files/src/thread.o /usr/src/test_kernel/example8_multiple_files/src/syscall.o 
