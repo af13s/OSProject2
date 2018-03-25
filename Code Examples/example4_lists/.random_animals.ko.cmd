@@ -1,0 +1,1 @@
+cmd_/usr/src/test_kernel/example4_lists/random_animals.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /usr/src/test_kernel/example4_lists/random_animals.ko /usr/src/test_kernel/example4_lists/random_animals.o /usr/src/test_kernel/example4_lists/random_animals.mod.o ;  true

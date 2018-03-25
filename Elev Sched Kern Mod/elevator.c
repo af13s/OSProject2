@@ -6,6 +6,7 @@
 #include <linux/slab.h>
 #include <linux/string.h>
 #include <linux/uaccess.h> 
+#include <linux/list.h>
 
 MODULE_LICENSE("GPL");
 MODULE_DESCRIPTION("Elevator module for processing requests");
@@ -57,7 +58,8 @@ MODULE_DESCRIPTION("Elevator module for processing requests");
 #define RSERVICE 3
 #define BELLHOP 4
 
-enum State {IDLE = 0, LOADING = 1,OFFLINE = -1 , UP = 2, DOWN = 3};
+enum State {IDLE = 0, LOADING = 1,OFFLINE = 2 , UP = 3, DOWN = 4};
+static char * state_arr[5] = {"IDLE", "LOADING", "OFFLINE", "UP", "DOWN"};
 
 struct Passenger
 {
@@ -86,11 +88,15 @@ static struct Load CHILD_LOAD = {CHILD_P_UNIT, CHILD_W_UNIT};
 static struct Load RSERVICE_LOAD = {RSERVICE_P_UNIT, RSERVICE_W_UNIT};
 static struct Load BELLHOP_LOAD = {BELLHOP_P_UNIT, BELLHOP_W_UNIT};
 static struct Elevator * elevator;
+static struct list_head queue;
+
+static int requested =0;
 static int status = 0;
 
 struct Elevator * init_elevator(struct Elevator * elevator,int * status)
 {
-	elevator = (struct Elevator*)malloc(sizeof(struct Elevator));
+	//elevator = (struct Elevator*)malloc(sizeof(struct Elevator));
+	elevator = kmalloc(sizeof(struct Elevator),GFP_KERNEL);
 
 	INIT_LIST_HEAD(&elevator->plist);
 
@@ -136,10 +142,12 @@ module_init(start_elevator);
 int stop_elevator()
 {
 	if (status == 1)
-		//if (deactivating()) // check if queue is empty
-			//return status;
-		//else
-			 --status;
+	{
+		while(!list_empty($elevator->plist))
+			//continue processing requests
+		elevator->state = OFFLINE;
+		--status;
+	}
 
 	return status;
 }
@@ -147,9 +155,14 @@ module_exit(stop_elevator)
 
 
 //Issue requests
-
 int issue_request(int passenger_type, int start_floor, int destination_floor)
 {  
+	if (!requested)
+	{
+		INIT_LIST_HEAD(&queue);
+		request = 1;
+	}
+
 	if (status == 0)
 		return INVALID;
 
@@ -191,7 +204,7 @@ int issue_request(int passenger_type, int start_floor, int destination_floor)
 		   		return INVALID;
 		}
 
-	addPassenger(passenger,elevator);
+	addRequest(passenger);
 
 	return VALID;
 }
@@ -199,7 +212,8 @@ int issue_request(int passenger_type, int start_floor, int destination_floor)
 
 struct Passenger * init_pass(struct Load load, int start, int dest)
 {
-	struct Passenger * passenger = (struct Passenger*)malloc(sizeof(struct Passenger));
+	//struct Passenger * passenger = (struct Passenger*)malloc(sizeof(struct Passenger));
+	struct Passenger * passenger = kmalloc(sizeof(struct Passenger),GFP_KERNEL);
 	INIT_LIST_HEAD(&passenger->pnode);
 	passenger->load = load;
 	passenger->start = start;
@@ -212,13 +226,37 @@ int too_heavy(struct Load pload, struct Load eload)
 	return (pload.p_units + eload.p_units > MAX_P_LOAD ||  pload.w_units + eload.w_units > MAX_W_LOAD);
 }
 
-int addPassenger(struct Passenger * passenger, struct Elevator * elevator)
+int addRequest(struct Passenger * passenger)
 {
-	if (add_load(&elevator->cur_load,passenger->load))
+	list_add_tail(&passenger->pnode, &queue);
+}
+
+int removeRequest(struct Passenger * passenger)
+{
+	struct list_head *temp;
+	struct list_head *dummy;
+	struct Passenger * passger;
+
+	list_for_each_safe(temp, dummy, &queue) 
+	{
+		passger = list_entry(temp, struct Passenger, pnode); // returns item at that 
+
+		if (passger == passenger):
+		{
+			remove_load(&elevator->cur_load,passenger->load)
+			list_del(temp); /* init ver also reinits list */
+			kfree(passger); /* remember to free alloced data */
+		}
+	}
+}
+
+int addPassenger(struct Passenger * passenger)
+{
+	if (add_load(&elevator->cur_load,passenger->load) && status == 1)
 		list_add_tail(&passenger->pnode, &elevator->plist);
 }
 
-void removePassenger(struct Passenger * passenger, struct Elevator * elevator)
+void removePassenger(struct Passenger * passenger)
 {
 	struct list_head *temp;
 	struct list_head *dummy;
@@ -254,7 +292,4 @@ void remove_load(struct Load * total_load , struct Load add_load)
   total_load->p_units -= add_load.p_units;
   total_load->w_units -= add_load.w_units;
 }
-
-
-
 

@@ -1,0 +1,1 @@
+cmd_/usr/src/test_kernel/example1_hello_world_module/hello.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /usr/src/test_kernel/example1_hello_world_module/hello.ko /usr/src/test_kernel/example1_hello_world_module/hello.o /usr/src/test_kernel/example1_hello_world_module/hello.mod.o ;  true

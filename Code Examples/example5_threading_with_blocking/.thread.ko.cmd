@@ -1,0 +1,1 @@
+cmd_/usr/src/test_kernel/example5_threading_with_blocking/thread.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /usr/src/test_kernel/example5_threading_with_blocking/thread.ko /usr/src/test_kernel/example5_threading_with_blocking/thread.o /usr/src/test_kernel/example5_threading_with_blocking/thread.mod.o ;  true

@@ -6,9 +6,9 @@
 #include <linux/uaccess.h>
 
 MODULE_LICENSE("GPL");
-MODULE_DESCRIPTION("Elevator module for processing requests");
+MODULE_DESCRIPTION("Simple module featuring proc read");
 
-#define ENTRY_NAME "elevator"
+#define ENTRY_NAME "helloworld"
 #define ENTRY_SIZE 20
 #define PERMS 0644
 #define PARENT NULL
