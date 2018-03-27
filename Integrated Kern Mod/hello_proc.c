@@ -87,6 +87,15 @@ static struct list_head queue;
 static int status;
 static int serviced;
 
+
+struct thread_parameter 
+{
+	struct task_struct *kthread;
+	struct mutex mutex;
+};
+
+struct thread_parameter thread1;
+
 /**************************** PROC VARS *******************************/
 
 static struct file_operations fops;
@@ -114,16 +123,33 @@ extern long (*STUB_issue_request)(int,int,int);
 
 /**************************** PROC FUNCTIONS *******************************/
 int hello_proc_open(struct inode *sp_inode, struct file *sp_file) {
-	printk(KERN_INFO "proc called open\n");
-	
+	int i;
+	char *buf;
 	read_p = 1;
+
+	buf = kmalloc(sizeof(char) * ENTRY_SIZE, __GFP_RECLAIM | __GFP_IO | __GFP_FS);
 	message = kmalloc(sizeof(char) * ENTRY_SIZE, __GFP_RECLAIM | __GFP_IO | __GFP_FS);
 	if (message == NULL) {
 		printk(KERN_WARNING "hello_proc_open");
 		return -ENOMEM;
 	}
 	
-	strcpy(message, "Hello, World!\n");
+	sprintf(message, "Thread %d has cycled this many times:\n", thread1.id);
+	if (mutex_lock_interruptible(&thread1.mutex) == 0) {
+		for (i = 0; i < CNT_SIZE; i++) {
+			sprintf(buf, "%d\n", thread1.cnt[i]);
+			strcat(message, buf);
+		}
+	}
+	else {
+		for (i = 0; i < CNT_SIZE; i++) {
+			sprintf(buf, "%d\n", -1);
+			strcat(message, buf);
+		}
+	}
+	mutex_unlock(&thread1.mutex);
+	strcat(message, "\n");
+
 	return 0;
 }
 
@@ -221,7 +247,8 @@ int addPassengers(int currentfloor)
 	struct Passenger * passenger;
 	int added =0;
 
-	//lock
+	if (list_empty(&queue))
+		return;
 
 	list_for_each_safe(temp, dummy, &queue) 
 	{
@@ -235,8 +262,6 @@ int addPassengers(int currentfloor)
 		}
 	}
 
-	//unlock
-
 	return added;
 }
 
@@ -246,7 +271,8 @@ void removePassengers(int currentfloor)
 	struct list_head *dummy;
 	struct Passenger * passger;
 
-	//lock 
+	if (list_empty(&elevator->plist))
+		return;
 
 	list_for_each_safe(temp, dummy, &elevator->plist) 
 	{
@@ -259,11 +285,7 @@ void removePassengers(int currentfloor)
 			kfree(passger); /* remember to free alloced data */
 		}
 	}
-
-	//unlock
 }
-
-//////////////////////////////////////////////////////////////////////////
 
 
 // START ELEVATOR HELPERS /////////////////////////////////////////////
@@ -286,8 +308,6 @@ void init_elevator(struct Elevator * elevator)
 	elevator->cur_load.p_units = DEFAULT_P_UNIT; // 0
 	elevator->cur_load.w_units = DEFAULT_W_UNIT; // 0
 }
-//////////////////////////////////////////////////////////////////////////
-
 
 struct Load init_load (int punit, int wunit)
 {
@@ -306,69 +326,86 @@ void init_defaults()
 	serviced = 0;
 }
 
+/**************************** ELEVATOR SYSCALL HELPER FUNCTIONS END *******************************/
+
 /**************************** kthread PROCESS REQUESTS  *******************************/
 
-void process_request ()
+void thread_init_parameter(struct thread_parameter *parm) 
 {
-	//lock
+	mutex_init(&parm->mutex);
+	parm->kthread = kthread_run(process_request, parm,"Processing request");
+}
 
+
+void process_request (void *data)
+{
 
 	struct Passenger * passenger;
 	struct list_head * temp;
+	struct thread_parameter *parm = data;
 
+	// if (mutex_lock_interruptible(&parm->mutex) == 0) 
+	// {
+	// 	if (list_empty(&elevator->plist))
+	// 	{
+	// 		elevator->state = IDLE;
+	// 		return
+	// 	}
+	// }
 
-	if (list_empty(&elevator->plist))
+	// mutex_unlock(&parm->mutex);
+
+	while(1)
 	{
-		elevator->state = IDLE;
-		return
-	}
-
-	while(!list_empty($elevator->plist))
-	{
+		if (mutex_lock_interruptible(&parm->mutex) == 0) 
+		{
+			if ((list_empty(&queue) || status == 0) && list_empty(elevator->plist))
+				break;
 
 			elevator->state = LOADING;
 			msleep(LOAD_WAIT);
 			removePassengers(elevator->cur_floor); 	//offload (remove from plist) if passenger->dest == elevator->cur_floor
 			addPassengers(elevator->cur_floor); 	//onload (add to plist) if status set to one
 
-		if (elevator->cur_floor == elevator->floorrequest)
-		{
-			list_for_each_safe(temp, &example_list)
+			if (elevator->cur_floor == elevator->floorrequest)
 			{
-				/* Use this to get the surrounding struct */
-				passenger = list_entry(temp, struct Passenger, pnode);
-				elevator->floorrequest = passenger->dest;
-				break;
+				list_for_each_safe(temp, &example_list)
+				{
+					passenger = list_entry(temp, struct Passenger, pnode);
+					elevator->floorrequest = passenger->dest;
+					break;
+				}
 			}
+
+			//set elevator state to UP if passenger[0]->dest > elevator->cur_floor
+			if (elevator->cur_floor > elevator->floorrequest)
+			{
+				elevator->state = DOWN;
+				msleep(FLOOR_WAIT);
+				--elevator->cur_floor;
+			}
+
+			//set elevator state to DOWN if passenger[0]->dest < elevator->cur_floor
+			if (elevator->cur_floor < elevator->floorrequest)
+			{
+				elevator->state = UP;
+				msleep(FLOOR_WAIT);
+				++elevator->cur_floor;
+			}
+
+			
 		}
 
-		//set elevator state to UP if passenger[0]->dest > elevator->cur_floor
-		if (elevator->cur_floor > elevator->floorrequest)
-		{
-			elevator->state = DOWN;
-			msleep(FLOOR_WAIT);
-			--elevator->cur_floor;
-		}
-
-		//set elevator state to DOWN if passenger[0]->dest < elevator->cur_floor
-		if (elevator->cur_floor < elevator->floorrequest)
-		{
-			elevator->state = UP;
-			msleep(FLOOR_WAIT);
-			++elevator->cur_floor;
-		}
+		mutex_unlock(&parm->mutex);
 	}
 
+	mutex_unlock(&parm->mutex);
 	elevator->state = IDLE;
-	//unlock
 
-	return
+	return;
 }
 
 /**************************** kthread PROCESS REQUESTS END *******************************/
-
-
-/**************************** ELEVATOR SYSCALL HELPER FUNCTIONS END *******************************/
 
 /**************************** ELEVATOR SYSCALLS *******************************/
 
@@ -388,8 +425,6 @@ long start_elevator()
 			return ret;
 		}
 	}
-	else
-		process_request();
 
 	return (long)status;
 }
@@ -410,6 +445,7 @@ long stop_elevator()
 
 long issue_request(int passenger_type, int start_floor, int destination_floor)
 {  
+
 	if (status == 0)
 		return (long)INVALID;
 
@@ -451,7 +487,12 @@ long issue_request(int passenger_type, int start_floor, int destination_floor)
 		   		return (long)INVALID;
 		}
 
-	addRequest(passenger);
+	if (mutex_lock_interruptible(thread1.mutex) == 0) 
+	{
+		addRequest(passenger);
+	}
+
+	mutex_unlock(thread1.mutex);
 
 	return (long)VALID;
 }
@@ -473,7 +514,15 @@ static int elev_mod_init(void) {
 	// intialize vars
 	init_elevator(elevator);
 	init_defaults();
-	INIT_LIST_HEAD(queue);
+	INIT_LIST_HEAD(&queue);
+
+	thread_init_parameter(&thread1);
+
+	if (IS_ERR(thread1.kthread)) {
+		printk(KERN_WARNING "error spawning thread");
+		remove_proc_entry(ENTRY_NAME, NULL);
+		return PTR_ERR(thread1.kthread);
+	}
 	
 	if (!proc_create(ENTRY_NAME, PERMS, NULL, &fops)) {
 		printk(KERN_WARNING "proc create\n");
@@ -487,8 +536,12 @@ module_init(elev_mod_init);
 
 
 /**************************** MODULE EXIT *******************************/
-static void elev_mod_init(void) {
+static void elev_mod_exit(void) {
 	remove_proc_entry(ENTRY_NAME, NULL);
+	kthread_stop(thread1.kthread);
+	remove_proc_entry(ENTRY_NAME, NULL);
+	mutex_destroy(&thread1.mutex);
+	//release elevator / defaults and queue head
 	printk(KERN_NOTICE "Removing /proc/%s\n", ENTRY_NAME);
 }
 module_exit(elev_mod_init);
