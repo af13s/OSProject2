@@ -117,9 +117,6 @@ static char * state_arr[5] = {"IDLE", "LOADING", "OFFLINE", "UP", "DOWN"};
 
 
 /*************** STUB VARS *******************************************/
-extern long (*STUB_start_elevator)(void);
-extern long (*STUB_stop_elevator)(void);
-extern long (*STUB_issue_request)(int,int,int);
 
 
 /**************************** PROC FUNCTIONS *******************************/
@@ -411,7 +408,7 @@ void thread_init_parameter(struct thread_parameter *parm)
 /**************************** kthread PROCESS REQUESTS END *******************************/
 
 /**************************** ELEVATOR SYSCALLS *******************************/
-
+extern long (*STUB_start_elevator)(void);
 long start_elevator(void)
 {	
 	if (status == 0 || status < 0)
@@ -432,6 +429,7 @@ long start_elevator(void)
 	return (long)status;
 }
 
+extern long (*STUB_stop_elevator)(void);
 long stop_elevator(void)
 {
 	if (status == 1)
@@ -449,6 +447,7 @@ long stop_elevator(void)
 	return (long)status;
 }
 
+extern long (*STUB_issue_request)(int,int,int);
 long issue_request(int passenger_type, int start_floor, int destination_floor)
 {
 
