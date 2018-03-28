@@ -1,5 +1,5 @@
-obj-y := test_call.o
-obj-m := hello_proc.o
+obj-y := elevator_stub.o
+obj-m := elevator.o
 
 PWD := $(shell pwd)
 KDIR := /lib/modules/`uname -r`/build

@@ -9,6 +9,10 @@
 #include <linux/kthread.h>
 #include <linux/errno.h>
 
+extern long (*STUB_start_elevator)(void);
+extern long (*STUB_stop_elevator)(void);
+extern long (*STUB_issue_request)(int,int,int);
+
 MODULE_LICENSE("GPL");
 MODULE_DESCRIPTION("Elevator module for processing requests");
 
@@ -408,7 +412,7 @@ void thread_init_parameter(struct thread_parameter *parm)
 /**************************** kthread PROCESS REQUESTS END *******************************/
 
 /**************************** ELEVATOR SYSCALLS *******************************/
-extern long (*STUB_start_elevator)(void);
+
 long start_elevator(void)
 {	
 	if (status == 0 || status < 0)
@@ -429,7 +433,6 @@ long start_elevator(void)
 	return (long)status;
 }
 
-extern long (*STUB_stop_elevator)(void);
 long stop_elevator(void)
 {
 	if (status == 1)
@@ -447,7 +450,7 @@ long stop_elevator(void)
 	return (long)status;
 }
 
-extern long (*STUB_issue_request)(int,int,int);
+
 long issue_request(int passenger_type, int start_floor, int destination_floor)
 {
 
