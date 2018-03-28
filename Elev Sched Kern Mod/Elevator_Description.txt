@@ -1,9 +1,0 @@
-#Part 3: Elevator Scheduler
-
-Your task is to implement a scheduling algorithm for a hotel elevator. Your elevator must track the number of passengers and the total weight. Elevator load consists of four types of people: adults, children, room service, and bellhops.
-
-Passengers will appear on a floor of their choosing and always know where they wish to go. You can assume most of the time when a passenger is on a floor other than the first, they will choose to go to thefirst floor (for optimization purposes). Passengers board the elevator in FIFO order. If a passenger can fit, the elevator must accept them unless the elevator is moving in the opposite direction from where they wish to go. Once they board the elevator, they may only get off when the elevator arrives at the destination. Passengers will wait on floors to be serviced indefinitely. 
-
-Step 1: Kernel Module with an Elevator.
-Develop a representation of an elevator.
-In this project, you will be required to support having a maximum load of 15 weight units and 10 passenger units (neither can be exceeded at any point). The elevator must wait for 2.0 seconds when moving between floors, and it must wait for 1.0 seconds whileloading/unloading passengers. The building has floor 1 being the minimum floor number and floor 10 being the maximum floor number. New passengers can arrive at any time and each floor needs to support an arbitrary number of them.

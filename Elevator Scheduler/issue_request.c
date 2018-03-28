@@ -93,7 +93,7 @@ int addPassenger(struct Passenger * passenger, struct Elevator * elevator)
 int removePassenger(struct Passenger * passenger, struct Elevator * elevator)
 {
 	int queue_num = 0;
-	remove_load(&elevator->cur_load,passenger->load)	
+	remove_load(&elevator->cur_load,passenger->load);	
 	//queue_num = remove_from_queue(struct Passenger * passenger);
 	
 	return queue_num;
