@@ -28,12 +28,12 @@ int main()
 	printf("Valid: %d \n" , issue_request(CHILD,1,100));
 	printf("Valid: %d \n" , issue_request(BELLHOP,10,1));
 	printf("Valid: %d \n" , issue_request(ADULT,6,2));
-
+    
 	// TESTS //
-	//printf("\nLoad before add -  p_units: %d w_units: %f\n", elevator->cur_load.p_units,elevator->cur_load.w_units);
-	// add_load(&elevator->cur_load, ADULT_LOAD);
-	// add_load(&elevator->cur_load, CHILD_LOAD);
-	// add_load(&elevator->cur_load, BELLHOP_LOAD);
+	printf("\nLoad before add -  p_units: %d w_units: %f\n", elevator->cur_load.p_units,elevator->cur_load.w_units);
+	 add_load(&elevator->cur_load, ADULT_LOAD);
+	add_load(&elevator->cur_load, CHILD_LOAD);
+	add_load(&elevator->cur_load, BELLHOP_LOAD);
 	printf("Load after add -  p_units: %d w_units: %f\n", elevator->cur_load.p_units,elevator->cur_load.w_units);
 
 }
