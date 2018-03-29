@@ -127,12 +127,12 @@ int proc_open(struct inode *sp_inode, struct file *sp_file) {
 
 	mutex_lock(&thread1.mutex);
 
-	strcat(message,"Movement State: %d\n",state_arr[elevator->state]);
-	strcat(message,"Current Floor: %d\n", elevator->cur_floor);
-	strcat(message,"Next Floor: %d\n", elevator->floorrequest);
-	strcat(message,"Elevator Passenger Units: %d\n Elevator Weight Units: %d\n", elevator->load.p_units,elevator->load.w_units);
-	strcat(message,"Waiting Passenger Units: %d\n  Waiting Weight Units: %d\n", waiting.p_units,waiting.w_units);
-	strcat(message,"Passengers Serviced: %d\n",serviced);
+	sprintf(message,"Movement State: %s\n",state_arr[elevator->state]);
+	sprintf(message + strlen(message),"Current Floor: %d\n", elevator->cur_floor);
+	sprintf(message + strlen(message),"Next Floor: %d\n", elevator->floorrequest);
+	sprintf(message + strlen(message),"Elevator Passenger Units: %d\n Elevator Weight Units: %d\n", elevator->cur_load.p_units,elevator->cur_load.w_units);
+	sprintf(message + strlen(message),"Waiting Passenger Units: %d\n  Waiting Weight Units: %d\n", waiting.p_units,waiting.w_units);
+	sprintf(message+ strlen(message),"Passengers Serviced: %d\n",serviced);
 
 	mutex_unlock(&thread1.mutex);
 
@@ -235,7 +235,7 @@ int addPassengers(int currentfloor)
 	struct Passenger * passengercopy;
 	int added =0;
 
-	if (&queue.load == 0)
+	if (waiting.p_units == 0)
 		return 0;
 
 	list_for_each_safe(temp, dummy, &queue.pnode) 
@@ -247,8 +247,8 @@ int addPassengers(int currentfloor)
 			if (add_load(&elevator->cur_load,passenger->load))
 			{
 				printk(KERN_ALERT "adding %d %d %d\n",
-							passger->load.w_units, passger->start, passger->dest);
-				passengercopy = init_pass(passenger->load,passenger->start,passenger->dest)
+							passenger->load.w_units, passenger->start, passenger->dest);
+				passengercopy = init_pass(passenger->load,passenger->start,passenger->dest);
 				list_add_tail(&passengercopy->pnode, &elevator->plist.pnode);
 				removeRequest(passenger);
 				++added;
@@ -267,7 +267,7 @@ int removePassengers(int currentfloor)
 	struct Passenger * passger;
 
 	if (elevator->cur_load.p_units == 0)
-		return;
+		return 0;
 
 	list_for_each_safe(temp, dummy, &elevator->plist.pnode) 
 	{
@@ -327,9 +327,9 @@ void init_defaults(void)
 	serviced = 0;
 }
 
-void free_queue()
+void free_queue(void)
 {
-	Passenger * pass;
+	struct Passenger * pass;
 	struct list_head *temp, *dummy;
 
 	list_for_each_safe(temp, dummy, &queue.pnode)
@@ -349,11 +349,14 @@ int process_requests (void *data)
 	struct Passenger * passenger;
 	struct list_head * temp;
 	struct thread_parameter *parm = data;
+	int wait = 0;
+	int wait2 =0;
 
 	while(!kthread_should_stop())
 	{
+		wait =0;
 
-		if (elevator->load.p_units == 0 && queue.p_units == 0 && status == 1)
+		if (elevator->cur_load.p_units == 0 && waiting.p_units == 0 && status == 1)
 		{
 			mutex_lock(&parm->mutex);
 			elevator->state = IDLE;
@@ -362,9 +365,6 @@ int process_requests (void *data)
 		}
 
 		mutex_lock(&parm->mutex);
-
-		int wait = 0;
-
 
 		//drop off passengers if at destination
 		elevator->state = LOADING;
@@ -409,8 +409,9 @@ int process_requests (void *data)
 
 	mutex_lock(&parm->mutex);
 
-	while(elevator->load.p_units > 0)
+	while(elevator->cur_load.p_units > 0)
 	{
+		wait2 =0;
 		elevator->state = LOADING;
 		wait += removePassengers(elevator->cur_floor); 	//offload (remove from plist) if passenger->dest == elevator->cur_floor
 
@@ -495,7 +496,7 @@ long stop_elevator(void)
 		printk(KERN_DEBUG "Elevator deactivating.\n");
 
 		status =0;
-		kthread_stop(&thread1.kthread);
+		kthread_stop(thread1.kthread);
 
 		elevator->state = OFFLINE;
 		printk(KERN_DEBUG "Elevator deactivated.\n");
@@ -571,9 +572,9 @@ long issue_request(int passenger_type, int start_floor, int destination_floor)
 
 static int elev_mod_init(void) {
 	printk(KERN_NOTICE "/proc/%s create\n",ENTRY_NAME);
-	fops.open = hello_proc_open;
-	fops.read = hello_proc_read;
-	fops.release = hello_proc_release;
+	fops.open = proc_open;
+	fops.read = proc_read;
+	fops.release = proc_release;
 
 	STUB_start_elevator = start_elevator;
 	STUB_stop_elevator = stop_elevator;

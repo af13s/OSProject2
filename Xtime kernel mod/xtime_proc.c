@@ -15,6 +15,7 @@ MODULE_DESCRIPTION("Simple module featuring proc read");
 static struct file_operations fops;
  
 static int read_p;
+static char * message;
 static struct timespec prevTime;
 static struct timespec currTime;
 static struct timespec result;
@@ -27,39 +28,28 @@ int time_proc_open(struct inode *sp_inode, struct file *sp_file) {
 		printk(KERN_WARNING "hello_proc_open");
 		return -ENOMEM;
 	}
-	
-	strcpy(message, "Hello, World!\n");
 	return 0;
 }
 
 
 
-int
-timespec_subtract (struct timespec *result, struct timespec *x, struct timespec *y)
+
+void timespec_diff(struct timespec *start, struct timespec *stop,
+                   struct timespec *result)
 {
-  /* Perform the carry for the later subtraction by updating y. */
-  if (x->tv_usec < y->tv_usec) {
-    int nsec = (y->tv_usec - x->tv_usec) / 1000000 + 1;
-    y->tv_usec -= 1000000 * nsec;
-    y->tv_sec += nsec;
-  }
-  if (x->tv_usec - y->tv_usec > 1000000) {
-    int nsec = (x->tv_usec - y->tv_usec) / 1000000;
-    y->tv_usec += 1000000 * nsec;
-    y->tv_sec -= nsec;
-  }
+    if ((stop->tv_nsec - start->tv_nsec) < 0) {
+        result->tv_sec = stop->tv_sec - start->tv_sec - 1;
+        result->tv_nsec = stop->tv_nsec - start->tv_nsec + 1000000000;
+    } else {
+        result->tv_sec = stop->tv_sec - start->tv_sec;
+        result->tv_nsec = stop->tv_nsec - start->tv_nsec;
+    }
 
-  /* Compute the time remaining to wait.
-     tv_usec is certainly positive. */
-  result->tv_sec = x->tv_sec - y->tv_sec;
-  result->tv_usec = x->tv_usec - y->tv_usec;
-
-  /* Return 1 if result is negative. */
-  return x->tv_sec < y->tv_sec;
+    return;
 }
 
 ssize_t time_proc_read(struct file *sp_file, char __user *buf, size_t size, loff_t *offset) {
-	int len = strlen(message);
+	int len = 0;
 	read_p = !read_p;
 	if (read_p)
 		return 0;
@@ -68,10 +58,17 @@ ssize_t time_proc_read(struct file *sp_file, char __user *buf, size_t size, loff
 	currTime = current_kernel_time();
 	if(!prevTime.tv_sec)
 	{
-		timespec_subtract(&result,&currTime,&prevTime);
+		sprintf(message,"current time: %ld.%ld\n",currTime.tv_sec,currTime.tv_nsec);
 	}
-	
-	copy_to_user(buf, message, len);
+	if(prevTime.tv_sec)
+	{
+		timespec_diff(&prevTime,&currTime,&result);
+		sprintf(message,"Current time: %ld.%ld\nTime elapsed: %ld.%ld\n",currTime.tv_sec,currTime.tv_nsec,result.tv_sec,result.tv_nsec);
+	}
+	len = strlen(message);
+	copy_to_user(buf,message, len);
+	prevTime.tv_sec = currTime.tv_sec;
+	prevTime.tv_nsec = currTime.tv_nsec;
 	return len;
 }
 
