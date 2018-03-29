@@ -19,20 +19,6 @@ static char * message;
 static struct timespec prevTime;
 static struct timespec currTime;
 static struct timespec result;
-int time_proc_open(struct inode *sp_inode, struct file *sp_file) {
-	printk(KERN_INFO "proc called open\n");
-	
-	read_p = 1;
-	message = kmalloc(sizeof(char) * ENTRY_SIZE, __GFP_RECLAIM | __GFP_IO | __GFP_FS);
-	if (message == NULL) {
-		printk(KERN_WARNING "hello_proc_open");
-		return -ENOMEM;
-	}
-	return 0;
-}
-
-
-
 
 void timespec_diff(struct timespec *start, struct timespec *stop,
                    struct timespec *result)
@@ -48,27 +34,46 @@ void timespec_diff(struct timespec *start, struct timespec *stop,
     return;
 }
 
+int time_proc_open(struct inode *sp_inode, struct file *sp_file) {
+	currTime = current_kernel_time();
+		
+	printk(KERN_INFO "proc called open\n");
+	
+	read_p = 1;
+	message = kmalloc(sizeof(char) * ENTRY_SIZE, __GFP_RECLAIM | __GFP_IO | __GFP_FS);
+	if (message == NULL) {
+		printk(KERN_WARNING "hello_proc_open");
+		return -ENOMEM;
+	}
+	if(!prevTime.tv_sec)
+	{
+		sprintf(message,"current time: %ld.%09ld\n",currTime.tv_sec,currTime.tv_nsec);
+	}
+	if(prevTime.tv_sec)
+	{
+		timespec_diff(&prevTime,&currTime,&result);
+		sprintf(message,"Current time: %ld.%09ld\nTime elapsed: %ld.%09ld\n",currTime.tv_sec,currTime.tv_nsec,result.tv_sec,result.tv_nsec);
+	}
+	
+	
+	prevTime.tv_sec = currTime.tv_sec;
+	prevTime.tv_nsec = currTime.tv_nsec;
+	return 0;
+}
+
+
+
+
+
+
 ssize_t time_proc_read(struct file *sp_file, char __user *buf, size_t size, loff_t *offset) {
-	int len = 0;
+	int len = strlen(message);;
 	read_p = !read_p;
 	if (read_p)
 		return 0;
 		
 	//printk(KERN_INFO "proc called read\n");
-	currTime = current_kernel_time();
-	if(!prevTime.tv_sec)
-	{
-		sprintf(message,"current time: %ld.%ld\n",currTime.tv_sec,currTime.tv_nsec);
-	}
-	if(prevTime.tv_sec)
-	{
-		timespec_diff(&prevTime,&currTime,&result);
-		sprintf(message,"Current time: %ld.%ld\nTime elapsed: %ld.%ld\n",currTime.tv_sec,currTime.tv_nsec,result.tv_sec,result.tv_nsec);
-	}
-	len = strlen(message);
 	copy_to_user(buf,message, len);
-	prevTime.tv_sec = currTime.tv_sec;
-	prevTime.tv_nsec = currTime.tv_nsec;
 	return len;
 }
 
