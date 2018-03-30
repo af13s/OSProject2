@@ -229,7 +229,7 @@ void remove_load(struct Load load)
   	elevator.cur_load.w_units -= load.w_units;
 }
 
-int addPassengers(int currentfloor)
+int addPassengers(void)
 {
 	struct list_head *temp;
 	struct list_head *dummy;
@@ -244,7 +244,7 @@ int addPassengers(int currentfloor)
 	{
 		passenger = list_entry(temp, struct Passenger, pnode);
 
-		if (passenger->start == elevator.cur_floor) // can add condition to make sure elevator going right direction as passenger request
+		if ((passenger->start == elevator.cur_floor && ((passenger->dest < elevator.cur_floor && elevator.state == DOWN) || (passenger->dest > elevator.cur_floor && elevator.state == UP))) || (passenger->start == elevator.cur_floor && elevator.cur_load.p_units == 0))
 		{	
 			if (add_load(passenger->load))
 			{
@@ -261,7 +261,7 @@ int addPassengers(int currentfloor)
 	return added;
 }
 
-int removePassengers(int currentfloor)
+int removePassengers(void)
 {
 	int removed =0;
 	struct list_head *temp;
@@ -376,7 +376,7 @@ int process_requests (void)
 				list_for_each(temp, &queue.pnode)
 				{
 					passenger = list_entry(temp, struct Passenger, pnode);
-					elevator.floorrequest = passenger->dest;
+					elevator.floorrequest = passenger->start;
 					break;
 				}
 			}
@@ -396,32 +396,36 @@ int process_requests (void)
 		else if (elevator.cur_floor > elevator.floorrequest)
 		{
 			elevator.state = DOWN;
-			msleep(FLOOR_WAIT);
+			//msleep(FLOOR_WAIT);
 			--elevator.cur_floor;
 		}
 
 		else if (elevator.cur_floor < elevator.floorrequest)
 		{
 			elevator.state = UP;
-			msleep(FLOOR_WAIT);
+			//msleep(FLOOR_WAIT);
 			++elevator.cur_floor;
 		}
 
 		
 		printk(KERN_ALERT "Removing Passengers");
 		//drop off passengers if at destination
-		elevator.state = LOADING;
-		wait += removePassengers(elevator.cur_floor); 	//offload (remove from plist) if passenger->dest == elevator.cur_floor
+		
+		wait += removePassengers(); 	//offload (remove from plist) if passenger->dest == elevator.cur_floor
 		
 		printk(KERN_ALERT "Add Passengers");
 		// pick up passengers on current floor
+
 		if (status == 1)
-		{wait+=addPassengers(elevator.cur_floor);}
+		{wait+=addPassengers();}
 		
 		printk(KERN_ALERT "isSleeping(): %d",wait);
 		//sleep if passengers were added
 		if (wait > 0)
-		{msleep(LOAD_WAIT);}
+		{
+			elevator.state = LOADING;
+			//msleep(LOAD_WAIT);
+		}
 		
 		mutex_unlock(&thread1.mutex);
 	//}
