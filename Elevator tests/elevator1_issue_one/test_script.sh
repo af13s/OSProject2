@@ -11,10 +11,11 @@ done
 for number in {1..25}
 do
 	
-	sleep 2
+	sleep 1
 	cat /proc/elevator
 	echo
 done
 
 ./consumer.x --stop
+
 exit 0

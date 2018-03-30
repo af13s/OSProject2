@@ -344,27 +344,24 @@ void free_lists(void)
 
 int process_requests (void *data)
 {
-
 	struct Passenger * passenger;
 	struct list_head * temp;
-	//struct thread_parameter *parm = data;
+	struct thread_parameter *parm = data;
 	int wait = 0;
 	int wait2 =0;
 
 	while(!kthread_should_stop())
 	{
-
-		//mutex_lock(&parm->mutex);
-		mutex_lock(&thread1.mutex);
+		mutex_lock(&parm->mutex);
 
 		wait =0;
 
 		if (elevator.cur_load.p_units == 0 && waiting.p_units == 0 && status == 1)
 		{
 			elevator.state = IDLE;
-			mutex_unlock(&thread1.mutex);
+			mutex_unlock(&parm->mutex);
 			schedule();
-			mutex_lock(&thread1.mutex);
+			mutex_lock(&parm->mutex);
 		}
 
 		//get destination of first person on elevator (FIFO)
@@ -425,13 +422,14 @@ int process_requests (void *data)
 			elevator.state = LOADING;
 			msleep(LOAD_WAIT);
 		}
+
+		mutex_unlock(&parm->mutex);
 	}
 
-	mutex_unlock(&thread1.mutex);
+	mutex_lock(&parm->mutex);
 
 	while(elevator.cur_load.p_units > 0)
 	{
-		mutex_lock(&thread1.mutex);
 
 		if (elevator.cur_floor == elevator.floorrequest)
 		{
@@ -466,8 +464,10 @@ int process_requests (void *data)
 			elevator.state = LOADING;
 		}
 
-		mutex_unlock(&thread1.mutex);
+		
 	}
+
+	mutex_unlock(&parm->mutex);
 
 	return 0;
 }
@@ -483,6 +483,8 @@ void thread_init_parameter(struct thread_parameter *parm)
 long start_elevator(void)
 {
 	int ret =0;
+	thread_init_parameter(&thread1);
+
     mutex_lock(&thread1.mutex);
     
 	if (status == 0 || status < 0)
@@ -547,6 +549,8 @@ long issue_request(int passenger_type, int start_floor, int destination_floor)
 
 	struct Passenger * passenger;
 
+	mutex_lock(&thread1.mutex);
+
 	if (start_floor < MIN_FLOOR || start_floor > MAX_FLOOR || destination_floor > MAX_FLOOR || destination_floor < MIN_FLOOR)
 		return (long)INVALID;
 
@@ -585,8 +589,6 @@ long issue_request(int passenger_type, int start_floor, int destination_floor)
 		   	}
 		}
 
-	mutex_lock(&thread1.mutex);
-
 	addRequest(passenger);
 
 	mutex_unlock(&thread1.mutex);
@@ -610,7 +612,6 @@ static int elev_mod_init(void) {
 	// intialize vars
 	init_defaults();
 	INIT_LIST_HEAD(&(queue.pnode));
-	thread_init_parameter(&thread1);
 	init_elevator();
 
 	if (IS_ERR(thread1.kthread)) {
@@ -634,7 +635,7 @@ module_init(elev_mod_init);
 
 static void elev_mod_exit(void) {
 
-	stop_elevator();
+	//stop_elevator();
 	remove_proc_entry(ENTRY_NAME, NULL);
 	free_lists();
 	
