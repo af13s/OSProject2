@@ -1,0 +1,80 @@
+Movement State: LOADING
+Current Floor: 2
+Next Floor: 8
+Elevator Passenger Units: 10
+ Elevator Weight Units: 12
+Waiting Passenger Units: 1500169
+  Waiting Weight Units: 1750351
+Passengers Serviced: 0
+Movement State: LOADING
+Current Floor: 10
+Next Floor: 2
+Elevator Passenger Units: 2
+ Elevator Weight Units: 3
+Waiting Passenger Units: 1500153
+  Waiting Weight Units: 1750334
+Passengers Serviced: 20
+Movement State: LOADING
+Current Floor: 2
+Next Floor: 1
+Elevator Passenger Units: 10
+ Elevator Weight Units: 11
+Waiting Passenger Units: 1500128
+  Waiting Weight Units: 1750306
+Passengers Serviced: 33
+Movement State: LOADING
+Current Floor: 9
+Next Floor: 10
+Elevator Passenger Units: 10
+ Elevator Weight Units: 13
+Waiting Passenger Units: 1500110
+  Waiting Weight Units: 1750283
+Passengers Serviced: 44
+Movement State: LOADING
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 1
+ Elevator Weight Units: 1
+Waiting Passenger Units: 1500095
+  Waiting Weight Units: 1750267
+Passengers Serviced: 61
+Movement State: LOADING
+Current Floor: 8
+Next Floor: 8
+Elevator Passenger Units: 10
+ Elevator Weight Units: 12
+Waiting Passenger Units: 1500072
+  Waiting Weight Units: 1750239
+Passengers Serviced: 72
+Movement State: LOADING
+Current Floor: 3
+Next Floor: 1
+Elevator Passenger Units: 10
+ Elevator Weight Units: 11
+Waiting Passenger Units: 1500051
+  Waiting Weight Units: 1750214
+Passengers Serviced: 84
+Movement State: LOADING
+Current Floor: 9
+Next Floor: 10
+Elevator Passenger Units: 10
+ Elevator Weight Units: 11
+Waiting Passenger Units: 1500028
+  Waiting Weight Units: 1750189
+Passengers Serviced: 101
+Movement State: LOADING
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 2
+ Elevator Weight Units: 3
+Waiting Passenger Units: 1500011
+  Waiting Weight Units: 1750170
+Passengers Serviced: 119
+Movement State: LOADING
+Current Floor: 9
+Next Floor: 9
+Elevator Passenger Units: 10
+ Elevator Weight Units: 11
+Waiting Passenger Units: 1499980
+  Waiting Weight Units: 1750135
+Passengers Serviced: 134

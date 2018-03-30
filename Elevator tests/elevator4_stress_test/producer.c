@@ -69,7 +69,7 @@ int rnd_dest(int start) {
 
 int main(int argc, char **argv) {
 	const int times = 1000000; 		// 1 million
-	const int total_time = 5 * 60; 	// 5 mins
+	const int total_time = 60; 	// 1 min
 	
 	int i;
 	int type;
@@ -100,8 +100,8 @@ int main(int argc, char **argv) {
 	gettimeofday(&t2, NULL);
 	
 	time_diff(&elapsed, &t2, &t1);
-	if (time_diff(&sleep, &total, &elapsed) == 0)
-		time_sleep(&sleep);
+	//if (time_diff(&sleep, &total, &elapsed) == 0)
+		//time_sleep(&sleep);
 
 	return 0;
 }

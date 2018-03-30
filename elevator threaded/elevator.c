@@ -451,14 +451,14 @@ int process_requests (void *data)
 		else if (elevator.cur_floor > elevator.floorrequest)
 		{
 			elevator.state = DOWN;
-			msleep(FLOOR_WAIT);
+			msleep(4000);
 			--elevator.cur_floor;
 		}
 
 		else if (elevator.cur_floor < elevator.floorrequest)
 		{
 			elevator.state = UP;
-			msleep(FLOOR_WAIT);
+			msleep(4000);
 			++elevator.cur_floor;
 		}
 
@@ -467,7 +467,7 @@ int process_requests (void *data)
 
 		if (wait2 > 0)
 		{
-			msleep(LOAD_WAIT);
+			msleep(4000);
 			elevator.state = LOADING;
 		}
 

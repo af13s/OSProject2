@@ -1,0 +1,18 @@
+
+best = dropoff_reward - pickup_penalty
+
+dropoff_reward = (passengers) + (peopleinbetween) - abs(cur_floor - destination)*load_wait
+
+pickup_pentalty = abs(cur_floor - destination)*load_wait + ((peopleinbetween+1)*load_time)
+
+
+
+
+array[10] = struct {passengers, peopleinbetween}
+//inrightdirection
+
+for loop 10
+	calculates reward for each
+execute process_request with highest reward
+
+
