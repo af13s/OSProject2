@@ -1,12 +1,15 @@
 #!/bin/bash
 
-for number in {1..10}
+for number in {1..2}
 do
 	./producer.x
 done
-for number in {1..1000}
+
+./consumer.x --start
+
+for number in {1..10000}
 do
-	./consumer.x --start
+	cat /proc/elevator >> logfile
 	cat /proc/elevator
 done
 exit 0

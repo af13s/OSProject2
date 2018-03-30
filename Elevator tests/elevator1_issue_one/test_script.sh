@@ -16,10 +16,11 @@ do
 	echo
 done
 
+./consumer.x --stop
+
 for number in {1..10}
 do
-	./consumer.x --stop
-	echo STOPPING!
+	sleep .05
 	cat /proc/elevator
 	echo
 done
