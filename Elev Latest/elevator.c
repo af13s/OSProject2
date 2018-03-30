@@ -226,7 +226,7 @@ int add_load(struct Load load)
 void remove_load(struct Load load) 
 { 
   	elevator.cur_load.p_units -= load.p_units;
-  	elevator.cur_load.p_units -= load.w_units;
+  	elevator.cur_load.w_units -= load.w_units;
 }
 
 int addPassengers(int currentfloor)
@@ -345,18 +345,19 @@ void free_lists(void)
 /**************************** kthread PROCESS REQUESTS  *******************************/
 
 
-int process_requests (void *data)
+//int process_requests (void *data)
+int process_requests (void)
 {
 
 	struct Passenger * passenger;
 	struct list_head * temp;
-	struct thread_parameter *parm = data;
+	//struct thread_parameter *parm = data;
 	int wait = 0;
-	int wait2 =0;
+	//int wait2 =0;
 
 	//while(!kthread_should_stop())
 	//{
-		mutex_lock(&parm->mutex);
+		mutex_lock(&thread1.mutex);
 		wait =0;
 
 		//if (elevator.cur_load.p_units == 0 && waiting.p_units == 0 && status == 1)
@@ -367,31 +368,28 @@ int process_requests (void *data)
 			//schedule();
 		//}
 
-		
-		printk(KERN_ALERT "Removing Passengers");
-		//drop off passengers if at destination
-		elevator.state = LOADING;
-		wait += removePassengers(elevator.cur_floor); 	//offload (remove from plist) if passenger->dest == elevator.cur_floor
-		
-		printk(KERN_ALERT "Add Passengers");
-		// pick up passengers on current floor
-		if (status == 1)
-		{wait+=addPassengers(elevator.cur_floor);}
-		
-		printk(KERN_ALERT "isSleeping(): %d",wait);
-		//sleep if passengers were added
-		if (wait > 0)
-		{msleep(LOAD_WAIT);}
-
 		//get destination of first person on elevator (FIFO)
 		if (elevator.cur_floor == elevator.floorrequest)
 		{
-			list_for_each(temp, &elevator.plist.pnode)
+			if (elevator.cur_load.p_units == 0)
 			{
-				passenger = list_entry(temp, struct Passenger, pnode);
-				elevator.floorrequest = passenger->dest;
-				break;
+				list_for_each(temp, &queue.pnode)
+				{
+					passenger = list_entry(temp, struct Passenger, pnode);
+					elevator.floorrequest = passenger->dest;
+					break;
+				}
 			}
+			else
+			{
+				list_for_each(temp, &elevator.plist.pnode)
+				{
+					passenger = list_entry(temp, struct Passenger, pnode);
+					elevator.floorrequest = passenger->dest;
+					break;
+				}
+			}
+
 		}
 
 		//set next destination (FIFO)
@@ -409,7 +407,23 @@ int process_requests (void *data)
 			++elevator.cur_floor;
 		}
 
-		mutex_unlock(&parm->mutex);
+		
+		printk(KERN_ALERT "Removing Passengers");
+		//drop off passengers if at destination
+		elevator.state = LOADING;
+		wait += removePassengers(elevator.cur_floor); 	//offload (remove from plist) if passenger->dest == elevator.cur_floor
+		
+		printk(KERN_ALERT "Add Passengers");
+		// pick up passengers on current floor
+		if (status == 1)
+		{wait+=addPassengers(elevator.cur_floor);}
+		
+		printk(KERN_ALERT "isSleeping(): %d",wait);
+		//sleep if passengers were added
+		if (wait > 0)
+		{msleep(LOAD_WAIT);}
+		
+		mutex_unlock(&thread1.mutex);
 	//}
 
 	/*mutex_lock(&parm->mutex);
@@ -470,6 +484,7 @@ long start_elevator(void)
 		{
 			printk(KERN_DEBUG "elevator started.\n");
 			printk(KERN_DEBUG "elevator started.\n");
+			elevator.state = IDLE;
 			mutex_unlock(&start_stop);
 			return status++;
 		}
@@ -485,7 +500,7 @@ long start_elevator(void)
 
 	printk(KERN_DEBUG "elevator already started.\n");
 	mutex_unlock(&start_stop);
-	process_requests(&thread1);
+	process_requests();
 	return (long)status;
 }
 
