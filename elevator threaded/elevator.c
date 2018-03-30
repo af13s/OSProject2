@@ -26,8 +26,8 @@ MODULE_DESCRIPTION("Elevator module for processing requests");
 // ELEVATOR CONSTRAINTS
 #define MAX_P_LOAD 10 //passenger units
 #define MAX_W_LOAD 15 //weight units
-#define FLOOR_WAIT 2000 // transition time between floors in seconds
-#define LOAD_WAIT  1000 // load wait time in seconds
+#define FLOOR_WAIT 500 // transition time between floors in seconds
+#define LOAD_WAIT  500 // load wait time in seconds
 #define MAX_FLOOR 10 // Max floor is 10th floor
 #define MIN_FLOOR 1  // Min Floor is 1st floor
 // Elevator defaults
@@ -426,10 +426,17 @@ int process_requests (void *data)
 		mutex_unlock(&parm->mutex);
 	}
 
-	mutex_lock(&parm->mutex);
+	
 
-	while(elevator.cur_load.p_units > 0)
+	while(1)
 	{
+		mutex_lock(&parm->mutex);
+
+		if (elevator.cur_load.p_units == 0)
+		{
+			mutex_unlock(&parm->mutex);
+			break;
+		}
 
 		if (elevator.cur_floor == elevator.floorrequest)
 		{
@@ -464,10 +471,10 @@ int process_requests (void *data)
 			elevator.state = LOADING;
 		}
 
-		
+		mutex_unlock(&parm->mutex);
 	}
 
-	mutex_unlock(&parm->mutex);
+	
 
 	return 0;
 }
@@ -526,7 +533,9 @@ long stop_elevator(void)
 		printk(KERN_DEBUG "Elevator deactivating.\n");
 
 		status = 0;
+		mutex_unlock(&thread1.mutex);
 		kthread_stop(thread1.kthread);
+		mutex_lock(&thread1.mutex);
 		elevator.state = OFFLINE;
 		printk(KERN_DEBUG "Elevator deactivated.\n");
 	}
