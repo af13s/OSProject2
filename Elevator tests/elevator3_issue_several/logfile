@@ -1,0 +1,3984 @@
+Movement State: LOADING
+Current Floor: 2
+Next Floor: 3
+Elevator Passenger Units: 10
+ Elevator Weight Units: 10
+Waiting Passenger Units: 530
+  Waiting Weight Units: 580
+Passengers Serviced: 39
+Movement State: UP
+Current Floor: 6
+Next Floor: 8
+Elevator Passenger Units: 10
+ Elevator Weight Units: 10
+Waiting Passenger Units: 530
+  Waiting Weight Units: 580
+Passengers Serviced: 39
+Movement State: DOWN
+Current Floor: 6
+Next Floor: 4
+Elevator Passenger Units: 10
+ Elevator Weight Units: 10
+Waiting Passenger Units: 520
+  Waiting Weight Units: 570
+Passengers Serviced: 49
+Movement State: LOADING
+Current Floor: 2
+Next Floor: 2
+Elevator Passenger Units: 10
+ Elevator Weight Units: 10
+Waiting Passenger Units: 510
+  Waiting Weight Units: 560
+Passengers Serviced: 56
+Movement State: LOADING
+Current Floor: 1
+Next Floor: 8
+Elevator Passenger Units: 1
+ Elevator Weight Units: 1
+Waiting Passenger Units: 509
+  Waiting Weight Units: 559
+Passengers Serviced: 66
+Movement State: LOADING
+Current Floor: 5
+Next Floor: 8
+Elevator Passenger Units: 10
+ Elevator Weight Units: 11
+Waiting Passenger Units: 498
+  Waiting Weight Units: 547
+Passengers Serviced: 67
+Movement State: LOADING
+Current Floor: 8
+Next Floor: 9
+Elevator Passenger Units: 2
+ Elevator Weight Units: 3
+Waiting Passenger Units: 494
+  Waiting Weight Units: 543
+Passengers Serviced: 75
+Movement State: DOWN
+Current Floor: 7
+Next Floor: 3
+Elevator Passenger Units: 10
+ Elevator Weight Units: 14
+Waiting Passenger Units: 484
+  Waiting Weight Units: 529
+Passengers Serviced: 76
+Movement State: LOADING
+Current Floor: 3
+Next Floor: 3
+Elevator Passenger Units: 2
+ Elevator Weight Units: 2
+Waiting Passenger Units: 480
+  Waiting Weight Units: 525
+Passengers Serviced: 83
+Movement State: LOADING
+Current Floor: 7
+Next Floor: 10
+Elevator Passenger Units: 8
+ Elevator Weight Units: 8
+Waiting Passenger Units: 470
+  Waiting Weight Units: 515
+Passengers Serviced: 85
+Movement State: LOADING
+Current Floor: 10
+Next Floor: 4
+Elevator Passenger Units: 2
+ Elevator Weight Units: 3
+Waiting Passenger Units: 468
+  Waiting Weight Units: 512
+Passengers Serviced: 91
+Movement State: LOADING
+Current Floor: 6
+Next Floor: 4
+Elevator Passenger Units: 10
+ Elevator Weight Units: 12
+Waiting Passenger Units: 458
+  Waiting Weight Units: 501
+Passengers Serviced: 92
+Movement State: LOADING
+Current Floor: 2
+Next Floor: 1
+Elevator Passenger Units: 5
+ Elevator Weight Units: 5
+Waiting Passenger Units: 455
+  Waiting Weight Units: 498
+Passengers Serviced: 96
+Movement State: LOADING
+Current Floor: 3
+Next Floor: 8
+Elevator Passenger Units: 10
+ Elevator Weight Units: 10
+Waiting Passenger Units: 445
+  Waiting Weight Units: 488
+Passengers Serviced: 100
+Movement State: LOADING
+Current Floor: 7
+Next Floor: 8
+Elevator Passenger Units: 3
+ Elevator Weight Units: 4
+Waiting Passenger Units: 437
+  Waiting Weight Units: 479
+Passengers Serviced: 108
+Movement State: LOADING
+Current Floor: 9
+Next Floor: 3
+Elevator Passenger Units: 2
+ Elevator Weight Units: 3
+Waiting Passenger Units: 435
+  Waiting Weight Units: 476
+Passengers Serviced: 110
+Movement State: DOWN
+Current Floor: 5
+Next Floor: 3
+Elevator Passenger Units: 10
+ Elevator Weight Units: 13
+Waiting Passenger Units: 427
+  Waiting Weight Units: 466
+Passengers Serviced: 110
+Movement State: UP
+Current Floor: 3
+Next Floor: 9
+Elevator Passenger Units: 10
+ Elevator Weight Units: 12
+Waiting Passenger Units: 479
+  Waiting Weight Units: 558
+Passengers Serviced: 0
+Movement State: LOADING
+Current Floor: 7
+Next Floor: 9
+Elevator Passenger Units: 10
+ Elevator Weight Units: 12
+Waiting Passenger Units: 470
+  Waiting Weight Units: 547
+Passengers Serviced: 6
+Movement State: LOADING
+Current Floor: 10
+Next Floor: 4
+Elevator Passenger Units: 1
+ Elevator Weight Units: 1
+Waiting Passenger Units: 465
+  Waiting Weight Units: 542
+Passengers Serviced: 16
+Movement State: DOWN
+Current Floor: 6
+Next Floor: 4
+Elevator Passenger Units: 10
+ Elevator Weight Units: 10
+Waiting Passenger Units: 454
+  Waiting Weight Units: 531
+Passengers Serviced: 17
+Movement State: LOADING
+Current Floor: 2
+Next Floor: 2
+Elevator Passenger Units: 10
+ Elevator Weight Units: 12
+Waiting Passenger Units: 443
+  Waiting Weight Units: 518
+Passengers Serviced: 26
+Movement State: LOADING
+Current Floor: 4
+Next Floor: 5
+Elevator Passenger Units: 10
+ Elevator Weight Units: 12
+Waiting Passenger Units: 432
+  Waiting Weight Units: 505
+Passengers Serviced: 34
+Movement State: LOADING
+Current Floor: 7
+Next Floor: 10
+Elevator Passenger Units: 10
+ Elevator Weight Units: 13
+Waiting Passenger Units: 424
+  Waiting Weight Units: 494
+Passengers Serviced: 40
+Movement State: LOADING
+Current Floor: 9
+Next Floor: 5
+Elevator Passenger Units: 10
+ Elevator Weight Units: 10
+Waiting Passenger Units: 409
+  Waiting Weight Units: 478
+Passengers Serviced: 51
+Movement State: LOADING
+Current Floor: 5
+Next Floor: 5
+Elevator Passenger Units: 10
+ Elevator Weight Units: 11
+Waiting Passenger Units: 400
+  Waiting Weight Units: 467
+Passengers Serviced: 56
+Movement State: LOADING
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 2
+ Elevator Weight Units: 2
+Waiting Passenger Units: 394
+  Waiting Weight Units: 461
+Passengers Serviced: 69
+Movement State: UP
+Current Floor: 5
+Next Floor: 7
+Elevator Passenger Units: 10
+ Elevator Weight Units: 12
+Waiting Passenger Units: 381
+  Waiting Weight Units: 445
+Passengers Serviced: 72
+Movement State: LOADING
+Current Floor: 9
+Next Floor: 9
+Elevator Passenger Units: 3
+ Elevator Weight Units: 3
+Waiting Passenger Units: 370
+  Waiting Weight Units: 433
+Passengers Serviced: 82
+Movement State: DOWN
+Current Floor: 8
+Next Floor: 6
+Elevator Passenger Units: 10
+ Elevator Weight Units: 10
+Waiting Passenger Units: 360
+  Waiting Weight Units: 423
+Passengers Serviced: 84
+Movement State: LOADING
+Current Floor: 5
+Next Floor: 2
+Elevator Passenger Units: 10
+ Elevator Weight Units: 12
+Waiting Passenger Units: 352
+  Waiting Weight Units: 413
+Passengers Serviced: 90
+Movement State: LOADING
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 2
+ Elevator Weight Units: 2
+Waiting Passenger Units: 344
+  Waiting Weight Units: 405
+Passengers Serviced: 99
+Movement State: LOADING
+Current Floor: 5
+Next Floor: 8
+Elevator Passenger Units: 10
+ Elevator Weight Units: 11
+Waiting Passenger Units: 333
+  Waiting Weight Units: 393
+Passengers Serviced: 102
+Movement State: LOADING
+Current Floor: 9
+Next Floor: 9
+Elevator Passenger Units: 2
+ Elevator Weight Units: 3
+Waiting Passenger Units: 330
+  Waiting Weight Units: 389
+Passengers Serviced: 110
+Movement State: LOADING
+Current Floor: 8
+Next Floor: 2
+Elevator Passenger Units: 10
+ Elevator Weight Units: 13
+Waiting Passenger Units: 320
+  Waiting Weight Units: 376
+Passengers Serviced: 111
+Movement State: DOWN
+Current Floor: 4
+Next Floor: 2
+Elevator Passenger Units: 10
+ Elevator Weight Units: 13
+Waiting Passenger Units: 318
+  Waiting Weight Units: 373
+Passengers Serviced: 112
+Movement State: LOADING
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 2
+ Elevator Weight Units: 3
+Waiting Passenger Units: 312
+  Waiting Weight Units: 364
+Passengers Serviced: 120
+Movement State: LOADING
+Current Floor: 5
+Next Floor: 5
+Elevator Passenger Units: 10
+ Elevator Weight Units: 12
+Waiting Passenger Units: 300
+  Waiting Weight Units: 349
+Passengers Serviced: 122
+Movement State: LOADING
+Current Floor: 8
+Next Floor: 10
+Elevator Passenger Units: 8
+ Elevator Weight Units: 8
+Waiting Passenger Units: 296
+  Waiting Weight Units: 345
+Passengers Serviced: 126
+Movement State: LOADING
+Current Floor: 8
+Next Floor: 4
+Elevator Passenger Units: 10
+ Elevator Weight Units: 11
+Waiting Passenger Units: 286
+  Waiting Weight Units: 334
+Passengers Serviced: 133
+Movement State: LOADING
+Current Floor: 4
+Next Floor: 4
+Elevator Passenger Units: 10
+ Elevator Weight Units: 10
+Waiting Passenger Units: 271
+  Waiting Weight Units: 317
+Passengers Serviced: 142
+Movement State: LOADING
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 1
+ Elevator Weight Units: 1
+Waiting Passenger Units: 269
+  Waiting Weight Units: 315
+Passengers Serviced: 151
+Movement State: UP
+Current Floor: 5
+Next Floor: 6
+Elevator Passenger Units: 10
+ Elevator Weight Units: 11
+Waiting Passenger Units: 259
+  Waiting Weight Units: 304
+Passengers Serviced: 152
+Movement State: LOADING
+Current Floor: 7
+Next Floor: 10
+Elevator Passenger Units: 6
+ Elevator Weight Units: 6
+Waiting Passenger Units: 258
+  Waiting Weight Units: 303
+Passengers Serviced: 155
+Movement State: LOADING
+Current Floor: 10
+Next Floor: 8
+Elevator Passenger Units: 1
+ Elevator Weight Units: 1
+Waiting Passenger Units: 257
+  Waiting Weight Units: 302
+Passengers Serviced: 159
+Movement State: LOADING
+Current Floor: 8
+Next Floor: 7
+Elevator Passenger Units: 8
+ Elevator Weight Units: 9
+Waiting Passenger Units: 247
+  Waiting Weight Units: 291
+Passengers Serviced: 161
+Movement State: DOWN
+Current Floor: 5
+Next Floor: 2
+Elevator Passenger Units: 10
+ Elevator Weight Units: 11
+Waiting Passenger Units: 243
+  Waiting Weight Units: 287
+Passengers Serviced: 163
+Movement State: LOADING
+Current Floor: 2
+Next Floor: 2
+Elevator Passenger Units: 1
+ Elevator Weight Units: 1
+Waiting Passenger Units: 239
+  Waiting Weight Units: 283
+Passengers Serviced: 171
+Movement State: LOADING
+Current Floor: 2
+Next Floor: 2
+Elevator Passenger Units: 2
+ Elevator Weight Units: 2
+Waiting Passenger Units: 233
+  Waiting Weight Units: 277
+Passengers Serviced: 175
+Movement State: LOADING
+Current Floor: 4
+Next Floor: 6
+Elevator Passenger Units: 10
+ Elevator Weight Units: 12
+Waiting Passenger Units: 221
+  Waiting Weight Units: 262
+Passengers Serviced: 177
+Movement State: DOWN
+Current Floor: 4
+Next Floor: 3
+Elevator Passenger Units: 10
+ Elevator Weight Units: 12
+Waiting Passenger Units: 221
+  Waiting Weight Units: 262
+Passengers Serviced: 177
+Movement State: UP
+Current Floor: 6
+Next Floor: 8
+Elevator Passenger Units: 10
+ Elevator Weight Units: 11
+Waiting Passenger Units: 219
+  Waiting Weight Units: 260
+Passengers Serviced: 178
+Movement State: LOADING
+Current Floor: 9
+Next Floor: 9
+Elevator Passenger Units: 1
+ Elevator Weight Units: 1
+Waiting Passenger Units: 216
+  Waiting Weight Units: 257
+Passengers Serviced: 185
+Movement State: LOADING
+Current Floor: 7
+Next Floor: 6
+Elevator Passenger Units: 10
+ Elevator Weight Units: 13
+Waiting Passenger Units: 202
+  Waiting Weight Units: 239
+Passengers Serviced: 189
+Movement State: LOADING
+Current Floor: 3
+Next Floor: 2
+Elevator Passenger Units: 3
+ Elevator Weight Units: 4
+Waiting Passenger Units: 196
+  Waiting Weight Units: 231
+Passengers Serviced: 197
+Movement State: LOADING
+Current Floor: 4
+Next Floor: 6
+Elevator Passenger Units: 10
+ Elevator Weight Units: 10
+Waiting Passenger Units: 186
+  Waiting Weight Units: 221
+Passengers Serviced: 199
+Movement State: UP
+Current Floor: 8
+Next Floor: 9
+Elevator Passenger Units: 8
+ Elevator Weight Units: 8
+Waiting Passenger Units: 186
+  Waiting Weight Units: 221
+Passengers Serviced: 201
+Movement State: LOADING
+Current Floor: 10
+Next Floor: 10
+Elevator Passenger Units: 2
+ Elevator Weight Units: 3
+Waiting Passenger Units: 183
+  Waiting Weight Units: 217
+Passengers Serviced: 208
+Movement State: LOADING
+Current Floor: 6
+Next Floor: 6
+Elevator Passenger Units: 10
+ Elevator Weight Units: 11
+Waiting Passenger Units: 168
+  Waiting Weight Units: 201
+Passengers Serviced: 212
+Movement State: DOWN
+Current Floor: 2
+Next Floor: 1
+Elevator Passenger Units: 4
+ Elevator Weight Units: 6
+Waiting Passenger Units: 164
+  Waiting Weight Units: 196
+Passengers Serviced: 217
+Movement State: UP
+Current Floor: 3
+Next Floor: 5
+Elevator Passenger Units: 1
+ Elevator Weight Units: 1
+Waiting Passenger Units: 163
+  Waiting Weight Units: 195
+Passengers Serviced: 219
+Movement State: LOADING
+Current Floor: 7
+Next Floor: 8
+Elevator Passenger Units: 8
+ Elevator Weight Units: 9
+Waiting Passenger Units: 152
+  Waiting Weight Units: 183
+Passengers Serviced: 223
+Movement State: LOADING
+Current Floor: 10
+Next Floor: 10
+Elevator Passenger Units: 2
+ Elevator Weight Units: 2
+Waiting Passenger Units: 150
+  Waiting Weight Units: 181
+Passengers Serviced: 228
+Movement State: DOWN
+Current Floor: 6
+Next Floor: 3
+Elevator Passenger Units: 10
+ Elevator Weight Units: 12
+Waiting Passenger Units: 142
+  Waiting Weight Units: 171
+Passengers Serviced: 228
+Movement State: LOADING
+Current Floor: 3
+Next Floor: 1
+Elevator Passenger Units: 6
+ Elevator Weight Units: 7
+Waiting Passenger Units: 136
+  Waiting Weight Units: 165
+Passengers Serviced: 233
+Movement State: UP
+Current Floor: 3
+Next Floor: 5
+Elevator Passenger Units: 2
+ Elevator Weight Units: 2
+Waiting Passenger Units: 134
+  Waiting Weight Units: 163
+Passengers Serviced: 236
+Movement State: UP
+Current Floor: 7
+Next Floor: 9
+Elevator Passenger Units: 10
+ Elevator Weight Units: 12
+Waiting Passenger Units: 124
+  Waiting Weight Units: 151
+Passengers Serviced: 237
+Movement State: DOWN
+Current Floor: 9
+Next Floor: 2
+Elevator Passenger Units: 2
+ Elevator Weight Units: 3
+Waiting Passenger Units: 122
+  Waiting Weight Units: 148
+Passengers Serviced: 243
+Movement State: LOADING
+Current Floor: 5
+Next Floor: 2
+Elevator Passenger Units: 7
+ Elevator Weight Units: 9
+Waiting Passenger Units: 115
+  Waiting Weight Units: 139
+Passengers Serviced: 244
+Movement State: LOADING
+Current Floor: 2
+Next Floor: 6
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 115
+  Waiting Weight Units: 139
+Passengers Serviced: 249
+Movement State: LOADING
+Current Floor: 6
+Next Floor: 6
+Elevator Passenger Units: 9
+ Elevator Weight Units: 13
+Waiting Passenger Units: 102
+  Waiting Weight Units: 121
+Passengers Serviced: 252
+Movement State: UP
+Current Floor: 6
+Next Floor: 9
+Elevator Passenger Units: 10
+ Elevator Weight Units: 15
+Waiting Passenger Units: 100
+  Waiting Weight Units: 118
+Passengers Serviced: 253
+Movement State: LOADING
+Current Floor: 9
+Next Floor: 10
+Elevator Passenger Units: 2
+ Elevator Weight Units: 3
+Waiting Passenger Units: 100
+  Waiting Weight Units: 118
+Passengers Serviced: 257
+Movement State: DOWN
+Current Floor: 8
+Next Floor: 7
+Elevator Passenger Units: 2
+ Elevator Weight Units: 2
+Waiting Passenger Units: 98
+  Waiting Weight Units: 116
+Passengers Serviced: 258
+Movement State: LOADING
+Current Floor: 7
+Next Floor: 7
+Elevator Passenger Units: 2
+ Elevator Weight Units: 3
+Waiting Passenger Units: 92
+  Waiting Weight Units: 108
+Passengers Serviced: 262
+Movement State: LOADING
+Current Floor: 7
+Next Floor: 6
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 89
+  Waiting Weight Units: 105
+Passengers Serviced: 265
+Movement State: DOWN
+Current Floor: 4
+Next Floor: 2
+Elevator Passenger Units: 2
+ Elevator Weight Units: 2
+Waiting Passenger Units: 86
+  Waiting Weight Units: 102
+Passengers Serviced: 266
+Movement State: UP
+Current Floor: 2
+Next Floor: 6
+Elevator Passenger Units: 1
+ Elevator Weight Units: 1
+Waiting Passenger Units: 85
+  Waiting Weight Units: 101
+Passengers Serviced: 267
+Movement State: LOADING
+Current Floor: 6
+Next Floor: 6
+Elevator Passenger Units: 2
+ Elevator Weight Units: 2
+Waiting Passenger Units: 83
+  Waiting Weight Units: 99
+Passengers Serviced: 268
+Movement State: DOWN
+Current Floor: 4
+Next Floor: 1
+Elevator Passenger Units: 2
+ Elevator Weight Units: 2
+Waiting Passenger Units: 80
+  Waiting Weight Units: 96
+Passengers Serviced: 270
+Movement State: UP
+Current Floor: 2
+Next Floor: 5
+Elevator Passenger Units: 2
+ Elevator Weight Units: 2
+Waiting Passenger Units: 80
+  Waiting Weight Units: 96
+Passengers Serviced: 270
+Movement State: LOADING
+Current Floor: 5
+Next Floor: 5
+Elevator Passenger Units: 2
+ Elevator Weight Units: 3
+Waiting Passenger Units: 77
+  Waiting Weight Units: 92
+Passengers Serviced: 272
+Movement State: DOWN
+Current Floor: 3
+Next Floor: 1
+Elevator Passenger Units: 1
+ Elevator Weight Units: 1
+Waiting Passenger Units: 74
+  Waiting Weight Units: 88
+Passengers Serviced: 274
+Movement State: UP
+Current Floor: 3
+Next Floor: 4
+Elevator Passenger Units: 1
+ Elevator Weight Units: 1
+Waiting Passenger Units: 74
+  Waiting Weight Units: 88
+Passengers Serviced: 274
+Movement State: DOWN
+Current Floor: 2
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 74
+  Waiting Weight Units: 88
+Passengers Serviced: 275
+Movement State: UP
+Current Floor: 3
+Next Floor: 8
+Elevator Passenger Units: 1
+ Elevator Weight Units: 1
+Waiting Passenger Units: 71
+  Waiting Weight Units: 85
+Passengers Serviced: 276
+Movement State: UP
+Current Floor: 7
+Next Floor: 8
+Elevator Passenger Units: 1
+ Elevator Weight Units: 1
+Waiting Passenger Units: 71
+  Waiting Weight Units: 85
+Passengers Serviced: 276
+Movement State: DOWN
+Current Floor: 6
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 69
+  Waiting Weight Units: 82
+Passengers Serviced: 278
+Movement State: DOWN
+Current Floor: 2
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 69
+  Waiting Weight Units: 82
+Passengers Serviced: 278
+Movement State: UP
+Current Floor: 3
+Next Floor: 4
+Elevator Passenger Units: 2
+ Elevator Weight Units: 3
+Waiting Passenger Units: 67
+  Waiting Weight Units: 79
+Passengers Serviced: 278
+Movement State: LOADING
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 1
+ Elevator Weight Units: 1
+Waiting Passenger Units: 66
+  Waiting Weight Units: 78
+Passengers Serviced: 279
+Movement State: LOADING
+Current Floor: 1
+Next Floor: 7
+Elevator Passenger Units: 2
+ Elevator Weight Units: 2
+Waiting Passenger Units: 64
+  Waiting Weight Units: 76
+Passengers Serviced: 280
+Movement State: UP
+Current Floor: 5
+Next Floor: 7
+Elevator Passenger Units: 2
+ Elevator Weight Units: 2
+Waiting Passenger Units: 64
+  Waiting Weight Units: 76
+Passengers Serviced: 280
+Movement State: DOWN
+Current Floor: 5
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 64
+  Waiting Weight Units: 76
+Passengers Serviced: 281
+Movement State: LOADING
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 1
+ Elevator Weight Units: 1
+Waiting Passenger Units: 63
+  Waiting Weight Units: 75
+Passengers Serviced: 281
+Movement State: UP
+Current Floor: 5
+Next Floor: 10
+Elevator Passenger Units: 1
+ Elevator Weight Units: 1
+Waiting Passenger Units: 63
+  Waiting Weight Units: 75
+Passengers Serviced: 281
+Movement State: UP
+Current Floor: 9
+Next Floor: 10
+Elevator Passenger Units: 1
+ Elevator Weight Units: 1
+Waiting Passenger Units: 63
+  Waiting Weight Units: 75
+Passengers Serviced: 281
+Movement State: LOADING
+Current Floor: 9
+Next Floor: 10
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 61
+  Waiting Weight Units: 72
+Passengers Serviced: 283
+Movement State: DOWN
+Current Floor: 7
+Next Floor: 2
+Elevator Passenger Units: 2
+ Elevator Weight Units: 3
+Waiting Passenger Units: 59
+  Waiting Weight Units: 69
+Passengers Serviced: 283
+Movement State: DOWN
+Current Floor: 3
+Next Floor: 2
+Elevator Passenger Units: 2
+ Elevator Weight Units: 3
+Waiting Passenger Units: 59
+  Waiting Weight Units: 69
+Passengers Serviced: 283
+Movement State: UP
+Current Floor: 3
+Next Floor: 4
+Elevator Passenger Units: 1
+ Elevator Weight Units: 1
+Waiting Passenger Units: 58
+  Waiting Weight Units: 68
+Passengers Serviced: 284
+Movement State: LOADING
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 2
+ Elevator Weight Units: 3
+Waiting Passenger Units: 56
+  Waiting Weight Units: 65
+Passengers Serviced: 285
+Movement State: UP
+Current Floor: 5
+Next Floor: 8
+Elevator Passenger Units: 2
+ Elevator Weight Units: 3
+Waiting Passenger Units: 56
+  Waiting Weight Units: 65
+Passengers Serviced: 285
+Movement State: LOADING
+Current Floor: 8
+Next Floor: 10
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 56
+  Waiting Weight Units: 65
+Passengers Serviced: 286
+Movement State: LOADING
+Current Floor: 9
+Next Floor: 10
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 54
+  Waiting Weight Units: 62
+Passengers Serviced: 287
+Movement State: LOADING
+Current Floor: 8
+Next Floor: 8
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 53
+  Waiting Weight Units: 61
+Passengers Serviced: 288
+Movement State: DOWN
+Current Floor: 4
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 53
+  Waiting Weight Units: 61
+Passengers Serviced: 288
+Movement State: UP
+Current Floor: 2
+Next Floor: 3
+Elevator Passenger Units: 2
+ Elevator Weight Units: 2
+Waiting Passenger Units: 51
+  Waiting Weight Units: 59
+Passengers Serviced: 288
+Movement State: LOADING
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 2
+ Elevator Weight Units: 2
+Waiting Passenger Units: 49
+  Waiting Weight Units: 57
+Passengers Serviced: 289
+Movement State: UP
+Current Floor: 5
+Next Floor: 8
+Elevator Passenger Units: 2
+ Elevator Weight Units: 2
+Waiting Passenger Units: 49
+  Waiting Weight Units: 57
+Passengers Serviced: 289
+Movement State: UP
+Current Floor: 9
+Next Floor: 10
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 49
+  Waiting Weight Units: 57
+Passengers Serviced: 290
+Movement State: DOWN
+Current Floor: 8
+Next Floor: 6
+Elevator Passenger Units: 2
+ Elevator Weight Units: 2
+Waiting Passenger Units: 47
+  Waiting Weight Units: 55
+Passengers Serviced: 290
+Movement State: UP
+Current Floor: 8
+Next Floor: 10
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 47
+  Waiting Weight Units: 55
+Passengers Serviced: 291
+Movement State: DOWN
+Current Floor: 8
+Next Floor: 6
+Elevator Passenger Units: 2
+ Elevator Weight Units: 2
+Waiting Passenger Units: 45
+  Waiting Weight Units: 53
+Passengers Serviced: 291
+Movement State: UP
+Current Floor: 8
+Next Floor: 10
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 45
+  Waiting Weight Units: 53
+Passengers Serviced: 292
+Movement State: DOWN
+Current Floor: 8
+Next Floor: 7
+Elevator Passenger Units: 2
+ Elevator Weight Units: 3
+Waiting Passenger Units: 43
+  Waiting Weight Units: 50
+Passengers Serviced: 292
+Movement State: DOWN
+Current Floor: 4
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 43
+  Waiting Weight Units: 50
+Passengers Serviced: 293
+Movement State: LOADING
+Current Floor: 1
+Next Floor: 4
+Elevator Passenger Units: 2
+ Elevator Weight Units: 2
+Waiting Passenger Units: 41
+  Waiting Weight Units: 48
+Passengers Serviced: 293
+Movement State: LOADING
+Current Floor: 4
+Next Floor: 10
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 41
+  Waiting Weight Units: 48
+Passengers Serviced: 294
+Movement State: UP
+Current Floor: 8
+Next Floor: 10
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 41
+  Waiting Weight Units: 48
+Passengers Serviced: 294
+Movement State: LOADING
+Current Floor: 8
+Next Floor: 8
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 40
+  Waiting Weight Units: 47
+Passengers Serviced: 295
+Movement State: DOWN
+Current Floor: 4
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 40
+  Waiting Weight Units: 47
+Passengers Serviced: 295
+Movement State: UP
+Current Floor: 2
+Next Floor: 3
+Elevator Passenger Units: 2
+ Elevator Weight Units: 2
+Waiting Passenger Units: 38
+  Waiting Weight Units: 45
+Passengers Serviced: 295
+Movement State: UP
+Current Floor: 5
+Next Floor: 10
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 38
+  Waiting Weight Units: 45
+Passengers Serviced: 296
+Movement State: UP
+Current Floor: 9
+Next Floor: 10
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 38
+  Waiting Weight Units: 45
+Passengers Serviced: 296
+Movement State: DOWN
+Current Floor: 8
+Next Floor: 5
+Elevator Passenger Units: 1
+ Elevator Weight Units: 1
+Waiting Passenger Units: 37
+  Waiting Weight Units: 44
+Passengers Serviced: 296
+Movement State: LOADING
+Current Floor: 5
+Next Floor: 10
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 37
+  Waiting Weight Units: 44
+Passengers Serviced: 297
+Movement State: UP
+Current Floor: 9
+Next Floor: 10
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 37
+  Waiting Weight Units: 44
+Passengers Serviced: 297
+Movement State: DOWN
+Current Floor: 8
+Next Floor: 4
+Elevator Passenger Units: 1
+ Elevator Weight Units: 1
+Waiting Passenger Units: 36
+  Waiting Weight Units: 43
+Passengers Serviced: 297
+Movement State: LOADING
+Current Floor: 4
+Next Floor: 4
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 36
+  Waiting Weight Units: 43
+Passengers Serviced: 298
+Movement State: LOADING
+Current Floor: 1
+Next Floor: 2
+Elevator Passenger Units: 2
+ Elevator Weight Units: 3
+Waiting Passenger Units: 34
+  Waiting Weight Units: 40
+Passengers Serviced: 298
+Movement State: LOADING
+Current Floor: 1
+Next Floor: 5
+Elevator Passenger Units: 1
+ Elevator Weight Units: 1
+Waiting Passenger Units: 33
+  Waiting Weight Units: 39
+Passengers Serviced: 299
+Movement State: LOADING
+Current Floor: 5
+Next Floor: 5
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 33
+  Waiting Weight Units: 39
+Passengers Serviced: 300
+Movement State: LOADING
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 2
+ Elevator Weight Units: 2
+Waiting Passenger Units: 31
+  Waiting Weight Units: 37
+Passengers Serviced: 300
+Movement State: UP
+Current Floor: 5
+Next Floor: 10
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 31
+  Waiting Weight Units: 37
+Passengers Serviced: 301
+Movement State: UP
+Current Floor: 9
+Next Floor: 10
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 31
+  Waiting Weight Units: 37
+Passengers Serviced: 301
+Movement State: DOWN
+Current Floor: 7
+Next Floor: 1
+Elevator Passenger Units: 1
+ Elevator Weight Units: 1
+Waiting Passenger Units: 30
+  Waiting Weight Units: 36
+Passengers Serviced: 301
+Movement State: DOWN
+Current Floor: 3
+Next Floor: 1
+Elevator Passenger Units: 1
+ Elevator Weight Units: 1
+Waiting Passenger Units: 30
+  Waiting Weight Units: 36
+Passengers Serviced: 301
+Movement State: UP
+Current Floor: 3
+Next Floor: 6
+Elevator Passenger Units: 2
+ Elevator Weight Units: 2
+Waiting Passenger Units: 28
+  Waiting Weight Units: 34
+Passengers Serviced: 302
+Movement State: UP
+Current Floor: 7
+Next Floor: 10
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 28
+  Waiting Weight Units: 34
+Passengers Serviced: 303
+Movement State: LOADING
+Current Floor: 10
+Next Floor: 7
+Elevator Passenger Units: 1
+ Elevator Weight Units: 1
+Waiting Passenger Units: 27
+  Waiting Weight Units: 33
+Passengers Serviced: 303
+Movement State: DOWN
+Current Floor: 6
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 27
+  Waiting Weight Units: 33
+Passengers Serviced: 304
+Movement State: DOWN
+Current Floor: 2
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 27
+  Waiting Weight Units: 33
+Passengers Serviced: 304
+Movement State: UP
+Current Floor: 3
+Next Floor: 9
+Elevator Passenger Units: 1
+ Elevator Weight Units: 1
+Waiting Passenger Units: 24
+  Waiting Weight Units: 30
+Passengers Serviced: 305
+Movement State: UP
+Current Floor: 7
+Next Floor: 9
+Elevator Passenger Units: 1
+ Elevator Weight Units: 1
+Waiting Passenger Units: 24
+  Waiting Weight Units: 30
+Passengers Serviced: 305
+Movement State: DOWN
+Current Floor: 9
+Next Floor: 6
+Elevator Passenger Units: 2
+ Elevator Weight Units: 2
+Waiting Passenger Units: 22
+  Waiting Weight Units: 28
+Passengers Serviced: 306
+Movement State: LOADING
+Current Floor: 6
+Next Floor: 10
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 22
+  Waiting Weight Units: 28
+Passengers Serviced: 307
+Movement State: LOADING
+Current Floor: 10
+Next Floor: 10
+Elevator Passenger Units: 2
+ Elevator Weight Units: 2
+Waiting Passenger Units: 20
+  Waiting Weight Units: 26
+Passengers Serviced: 307
+Movement State: DOWN
+Current Floor: 6
+Next Floor: 1
+Elevator Passenger Units: 2
+ Elevator Weight Units: 2
+Waiting Passenger Units: 20
+  Waiting Weight Units: 26
+Passengers Serviced: 307
+Movement State: DOWN
+Current Floor: 2
+Next Floor: 1
+Elevator Passenger Units: 2
+ Elevator Weight Units: 2
+Waiting Passenger Units: 20
+  Waiting Weight Units: 26
+Passengers Serviced: 307
+Movement State: UP
+Current Floor: 4
+Next Floor: 7
+Elevator Passenger Units: 2
+ Elevator Weight Units: 2
+Waiting Passenger Units: 18
+  Waiting Weight Units: 24
+Passengers Serviced: 308
+Movement State: LOADING
+Current Floor: 7
+Next Floor: 10
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 18
+  Waiting Weight Units: 24
+Passengers Serviced: 309
+Movement State: DOWN
+Current Floor: 9
+Next Floor: 7
+Elevator Passenger Units: 1
+ Elevator Weight Units: 1
+Waiting Passenger Units: 17
+  Waiting Weight Units: 23
+Passengers Serviced: 309
+Movement State: DOWN
+Current Floor: 6
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 17
+  Waiting Weight Units: 23
+Passengers Serviced: 310
+Movement State: DOWN
+Current Floor: 2
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 17
+  Waiting Weight Units: 23
+Passengers Serviced: 310
+Movement State: UP
+Current Floor: 3
+Next Floor: 6
+Elevator Passenger Units: 2
+ Elevator Weight Units: 3
+Waiting Passenger Units: 15
+  Waiting Weight Units: 20
+Passengers Serviced: 310
+Movement State: LOADING
+Current Floor: 6
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 15
+  Waiting Weight Units: 20
+Passengers Serviced: 311
+Movement State: DOWN
+Current Floor: 2
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 15
+  Waiting Weight Units: 20
+Passengers Serviced: 311
+Movement State: UP
+Current Floor: 3
+Next Floor: 7
+Elevator Passenger Units: 2
+ Elevator Weight Units: 3
+Waiting Passenger Units: 13
+  Waiting Weight Units: 17
+Passengers Serviced: 311
+Movement State: LOADING
+Current Floor: 7
+Next Floor: 7
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 13
+  Waiting Weight Units: 17
+Passengers Serviced: 312
+Movement State: LOADING
+Current Floor: 10
+Next Floor: 10
+Elevator Passenger Units: 1
+ Elevator Weight Units: 1
+Waiting Passenger Units: 10
+  Waiting Weight Units: 14
+Passengers Serviced: 313
+Movement State: LOADING
+Current Floor: 7
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 10
+  Waiting Weight Units: 14
+Passengers Serviced: 314
+Movement State: DOWN
+Current Floor: 3
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 10
+  Waiting Weight Units: 14
+Passengers Serviced: 314
+Movement State: UP
+Current Floor: 3
+Next Floor: 6
+Elevator Passenger Units: 1
+ Elevator Weight Units: 1
+Waiting Passenger Units: 9
+  Waiting Weight Units: 13
+Passengers Serviced: 314
+Movement State: DOWN
+Current Floor: 5
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 9
+  Waiting Weight Units: 13
+Passengers Serviced: 315
+Movement State: LOADING
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 2
+ Elevator Weight Units: 3
+Waiting Passenger Units: 7
+  Waiting Weight Units: 10
+Passengers Serviced: 315
+Movement State: UP
+Current Floor: 4
+Next Floor: 6
+Elevator Passenger Units: 2
+ Elevator Weight Units: 3
+Waiting Passenger Units: 7
+  Waiting Weight Units: 10
+Passengers Serviced: 315
+Movement State: DOWN
+Current Floor: 4
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 7
+  Waiting Weight Units: 10
+Passengers Serviced: 316
+Movement State: UP
+Current Floor: 2
+Next Floor: 7
+Elevator Passenger Units: 2
+ Elevator Weight Units: 3
+Waiting Passenger Units: 5
+  Waiting Weight Units: 7
+Passengers Serviced: 316
+Movement State: UP
+Current Floor: 6
+Next Floor: 7
+Elevator Passenger Units: 2
+ Elevator Weight Units: 3
+Waiting Passenger Units: 5
+  Waiting Weight Units: 7
+Passengers Serviced: 316
+Movement State: UP
+Current Floor: 9
+Next Floor: 10
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 5
+  Waiting Weight Units: 7
+Passengers Serviced: 317
+Movement State: LOADING
+Current Floor: 9
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 3
+  Waiting Weight Units: 4
+Passengers Serviced: 318
+Movement State: DOWN
+Current Floor: 5
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 3
+  Waiting Weight Units: 4
+Passengers Serviced: 318
+Movement State: LOADING
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 1
+ Elevator Weight Units: 1
+Waiting Passenger Units: 2
+  Waiting Weight Units: 3
+Passengers Serviced: 318
+Movement State: LOADING
+Current Floor: 5
+Next Floor: 5
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 2
+  Waiting Weight Units: 3
+Passengers Serviced: 319
+Movement State: UP
+Current Floor: 9
+Next Floor: 10
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 2
+  Waiting Weight Units: 3
+Passengers Serviced: 319
+Movement State: DOWN
+Current Floor: 8
+Next Floor: 7
+Elevator Passenger Units: 2
+ Elevator Weight Units: 3
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 319
+Movement State: IDLE
+Current Floor: 7
+Next Floor: 7
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 320
+Movement State: IDLE
+Current Floor: 7
+Next Floor: 7
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 320
+Movement State: IDLE
+Current Floor: 7
+Next Floor: 7
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 320
+Movement State: IDLE
+Current Floor: 7
+Next Floor: 7
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 320
+Movement State: IDLE
+Current Floor: 7
+Next Floor: 7
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 320
+Movement State: IDLE
+Current Floor: 7
+Next Floor: 7
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 320
+Movement State: IDLE
+Current Floor: 7
+Next Floor: 7
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 320
+Movement State: LOADING
+Current Floor: 2
+Next Floor: 6
+Elevator Passenger Units: 7
+ Elevator Weight Units: 8
+Waiting Passenger Units: 95
+  Waiting Weight Units: 116
+Passengers Serviced: 0
+Movement State: LOADING
+Current Floor: 6
+Next Floor: 6
+Elevator Passenger Units: 9
+ Elevator Weight Units: 10
+Waiting Passenger Units: 84
+  Waiting Weight Units: 101
+Passengers Serviced: 5
+Movement State: LOADING
+Current Floor: 10
+Next Floor: 10
+Elevator Passenger Units: 1
+ Elevator Weight Units: 1
+Waiting Passenger Units: 78
+  Waiting Weight Units: 95
+Passengers Serviced: 15
+Movement State: LOADING
+Current Floor: 6
+Next Floor: 2
+Elevator Passenger Units: 9
+ Elevator Weight Units: 10
+Waiting Passenger Units: 68
+  Waiting Weight Units: 84
+Passengers Serviced: 17
+Movement State: LOADING
+Current Floor: 2
+Next Floor: 2
+Elevator Passenger Units: 7
+ Elevator Weight Units: 7
+Waiting Passenger Units: 59
+  Waiting Weight Units: 75
+Passengers Serviced: 27
+Movement State: LOADING
+Current Floor: 3
+Next Floor: 10
+Elevator Passenger Units: 9
+ Elevator Weight Units: 13
+Waiting Passenger Units: 50
+  Waiting Weight Units: 62
+Passengers Serviced: 31
+Movement State: LOADING
+Current Floor: 7
+Next Floor: 10
+Elevator Passenger Units: 9
+ Elevator Weight Units: 13
+Waiting Passenger Units: 48
+  Waiting Weight Units: 60
+Passengers Serviced: 33
+Movement State: LOADING
+Current Floor: 10
+Next Floor: 4
+Elevator Passenger Units: 2
+ Elevator Weight Units: 3
+Waiting Passenger Units: 46
+  Waiting Weight Units: 57
+Passengers Serviced: 38
+Movement State: DOWN
+Current Floor: 6
+Next Floor: 4
+Elevator Passenger Units: 2
+ Elevator Weight Units: 3
+Waiting Passenger Units: 46
+  Waiting Weight Units: 57
+Passengers Serviced: 38
+Movement State: LOADING
+Current Floor: 6
+Next Floor: 10
+Elevator Passenger Units: 8
+ Elevator Weight Units: 10
+Waiting Passenger Units: 36
+  Waiting Weight Units: 44
+Passengers Serviced: 40
+Movement State: LOADING
+Current Floor: 10
+Next Floor: 10
+Elevator Passenger Units: 1
+ Elevator Weight Units: 1
+Waiting Passenger Units: 31
+  Waiting Weight Units: 37
+Passengers Serviced: 46
+Movement State: DOWN
+Current Floor: 6
+Next Floor: 5
+Elevator Passenger Units: 1
+ Elevator Weight Units: 1
+Waiting Passenger Units: 31
+  Waiting Weight Units: 37
+Passengers Serviced: 46
+Movement State: LOADING
+Current Floor: 7
+Next Floor: 7
+Elevator Passenger Units: 2
+ Elevator Weight Units: 3
+Waiting Passenger Units: 28
+  Waiting Weight Units: 33
+Passengers Serviced: 48
+Movement State: DOWN
+Current Floor: 5
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 28
+  Waiting Weight Units: 33
+Passengers Serviced: 49
+Movement State: DOWN
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 2
+ Elevator Weight Units: 2
+Waiting Passenger Units: 26
+  Waiting Weight Units: 31
+Passengers Serviced: 49
+Movement State: LOADING
+Current Floor: 5
+Next Floor: 10
+Elevator Passenger Units: 7
+ Elevator Weight Units: 8
+Waiting Passenger Units: 19
+  Waiting Weight Units: 22
+Passengers Serviced: 50
+Movement State: LOADING
+Current Floor: 9
+Next Floor: 10
+Elevator Passenger Units: 2
+ Elevator Weight Units: 2
+Waiting Passenger Units: 19
+  Waiting Weight Units: 22
+Passengers Serviced: 53
+Movement State: DOWN
+Current Floor: 8
+Next Floor: 1
+Elevator Passenger Units: 2
+ Elevator Weight Units: 2
+Waiting Passenger Units: 17
+  Waiting Weight Units: 20
+Passengers Serviced: 54
+Movement State: DOWN
+Current Floor: 4
+Next Floor: 1
+Elevator Passenger Units: 2
+ Elevator Weight Units: 2
+Waiting Passenger Units: 17
+  Waiting Weight Units: 20
+Passengers Serviced: 54
+Movement State: LOADING
+Current Floor: 1
+Next Floor: 3
+Elevator Passenger Units: 1
+ Elevator Weight Units: 1
+Waiting Passenger Units: 16
+  Waiting Weight Units: 19
+Passengers Serviced: 55
+Movement State: UP
+Current Floor: 5
+Next Floor: 9
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 16
+  Waiting Weight Units: 19
+Passengers Serviced: 56
+Movement State: LOADING
+Current Floor: 9
+Next Floor: 9
+Elevator Passenger Units: 2
+ Elevator Weight Units: 3
+Waiting Passenger Units: 14
+  Waiting Weight Units: 16
+Passengers Serviced: 56
+Movement State: LOADING
+Current Floor: 10
+Next Floor: 3
+Elevator Passenger Units: 1
+ Elevator Weight Units: 1
+Waiting Passenger Units: 12
+  Waiting Weight Units: 14
+Passengers Serviced: 58
+Movement State: DOWN
+Current Floor: 6
+Next Floor: 3
+Elevator Passenger Units: 1
+ Elevator Weight Units: 1
+Waiting Passenger Units: 12
+  Waiting Weight Units: 14
+Passengers Serviced: 58
+Movement State: LOADING
+Current Floor: 3
+Next Floor: 10
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 12
+  Waiting Weight Units: 14
+Passengers Serviced: 59
+Movement State: UP
+Current Floor: 7
+Next Floor: 10
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 12
+  Waiting Weight Units: 14
+Passengers Serviced: 59
+Movement State: DOWN
+Current Floor: 9
+Next Floor: 3
+Elevator Passenger Units: 2
+ Elevator Weight Units: 3
+Waiting Passenger Units: 10
+  Waiting Weight Units: 11
+Passengers Serviced: 59
+Movement State: DOWN
+Current Floor: 5
+Next Floor: 3
+Elevator Passenger Units: 2
+ Elevator Weight Units: 3
+Waiting Passenger Units: 10
+  Waiting Weight Units: 11
+Passengers Serviced: 59
+Movement State: UP
+Current Floor: 5
+Next Floor: 10
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 10
+  Waiting Weight Units: 11
+Passengers Serviced: 60
+Movement State: UP
+Current Floor: 9
+Next Floor: 10
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 10
+  Waiting Weight Units: 11
+Passengers Serviced: 60
+Movement State: DOWN
+Current Floor: 8
+Next Floor: 6
+Elevator Passenger Units: 1
+ Elevator Weight Units: 1
+Waiting Passenger Units: 9
+  Waiting Weight Units: 10
+Passengers Serviced: 60
+Movement State: DOWN
+Current Floor: 4
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 9
+  Waiting Weight Units: 10
+Passengers Serviced: 61
+Movement State: LOADING
+Current Floor: 2
+Next Floor: 2
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 8
+  Waiting Weight Units: 9
+Passengers Serviced: 62
+Movement State: UP
+Current Floor: 4
+Next Floor: 7
+Elevator Passenger Units: 2
+ Elevator Weight Units: 2
+Waiting Passenger Units: 6
+  Waiting Weight Units: 7
+Passengers Serviced: 62
+Movement State: LOADING
+Current Floor: 7
+Next Floor: 10
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 6
+  Waiting Weight Units: 7
+Passengers Serviced: 63
+Movement State: DOWN
+Current Floor: 9
+Next Floor: 2
+Elevator Passenger Units: 2
+ Elevator Weight Units: 2
+Waiting Passenger Units: 4
+  Waiting Weight Units: 5
+Passengers Serviced: 63
+Movement State: DOWN
+Current Floor: 5
+Next Floor: 2
+Elevator Passenger Units: 2
+ Elevator Weight Units: 2
+Waiting Passenger Units: 4
+  Waiting Weight Units: 5
+Passengers Serviced: 63
+Movement State: LOADING
+Current Floor: 2
+Next Floor: 10
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 4
+  Waiting Weight Units: 5
+Passengers Serviced: 64
+Movement State: UP
+Current Floor: 6
+Next Floor: 10
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 4
+  Waiting Weight Units: 5
+Passengers Serviced: 64
+Movement State: LOADING
+Current Floor: 10
+Next Floor: 10
+Elevator Passenger Units: 2
+ Elevator Weight Units: 3
+Waiting Passenger Units: 2
+  Waiting Weight Units: 2
+Passengers Serviced: 64
+Movement State: DOWN
+Current Floor: 6
+Next Floor: 4
+Elevator Passenger Units: 2
+ Elevator Weight Units: 3
+Waiting Passenger Units: 2
+  Waiting Weight Units: 2
+Passengers Serviced: 64
+Movement State: DOWN
+Current Floor: 2
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 2
+  Waiting Weight Units: 2
+Passengers Serviced: 65
+Movement State: LOADING
+Current Floor: 3
+Next Floor: 3
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 1
+  Waiting Weight Units: 1
+Passengers Serviced: 66
+Movement State: UP
+Current Floor: 3
+Next Floor: 10
+Elevator Passenger Units: 1
+ Elevator Weight Units: 1
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 66
+Movement State: UP
+Current Floor: 7
+Next Floor: 10
+Elevator Passenger Units: 1
+ Elevator Weight Units: 1
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 66
+Movement State: IDLE
+Current Floor: 10
+Next Floor: 10
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 10
+Next Floor: 10
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 10
+Next Floor: 10
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 10
+Next Floor: 10
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 10
+Next Floor: 10
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 10
+Next Floor: 10
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 10
+Next Floor: 10
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 10
+Next Floor: 10
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 10
+Next Floor: 10
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 10
+Next Floor: 10
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 10
+Next Floor: 10
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 10
+Next Floor: 10
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 10
+Next Floor: 10
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 10
+Next Floor: 10
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 10
+Next Floor: 10
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 10
+Next Floor: 10
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 10
+Next Floor: 10
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 10
+Next Floor: 10
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 10
+Next Floor: 10
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 10
+Next Floor: 10
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 10
+Next Floor: 10
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 10
+Next Floor: 10
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 10
+Next Floor: 10
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 10
+Next Floor: 10
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 10
+Next Floor: 10
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 10
+Next Floor: 10
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 10
+Next Floor: 10
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 10
+Next Floor: 10
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 10
+Next Floor: 10
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 10
+Next Floor: 10
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 10
+Next Floor: 10
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 10
+Next Floor: 10
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 10
+Next Floor: 10
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 10
+Next Floor: 10
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 10
+Next Floor: 10
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 10
+Next Floor: 10
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 10
+Next Floor: 10
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 10
+Next Floor: 10
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 10
+Next Floor: 10
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 10
+Next Floor: 10
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 10
+Next Floor: 10
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 10
+Next Floor: 10
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 10
+Next Floor: 10
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 10
+Next Floor: 10
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 10
+Next Floor: 10
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 10
+Next Floor: 10
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 10
+Next Floor: 10
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 10
+Next Floor: 10
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 10
+Next Floor: 10
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 10
+Next Floor: 10
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 10
+Next Floor: 10
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 10
+Next Floor: 10
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 10
+Next Floor: 10
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 10
+Next Floor: 10
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 10
+Next Floor: 10
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 10
+Next Floor: 10
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 10
+Next Floor: 10
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 10
+Next Floor: 10
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 10
+Next Floor: 10
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 10
+Next Floor: 10
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 67
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 0
+Movement State: LOADING
+Current Floor: 2
+Next Floor: 2
+Elevator Passenger Units: 6
+ Elevator Weight Units: 7
+Waiting Passenger Units: 34
+  Waiting Weight Units: 38
+Passengers Serviced: 0
+Movement State: LOADING
+Current Floor: 6
+Next Floor: 9
+Elevator Passenger Units: 8
+ Elevator Weight Units: 10
+Waiting Passenger Units: 27
+  Waiting Weight Units: 29
+Passengers Serviced: 4
+Movement State: LOADING
+Current Floor: 9
+Next Floor: 10
+Elevator Passenger Units: 1
+ Elevator Weight Units: 1
+Waiting Passenger Units: 26
+  Waiting Weight Units: 28
+Passengers Serviced: 10
+Movement State: LOADING
+Current Floor: 8
+Next Floor: 5
+Elevator Passenger Units: 3
+ Elevator Weight Units: 3
+Waiting Passenger Units: 22
+  Waiting Weight Units: 24
+Passengers Serviced: 12
+Movement State: LOADING
+Current Floor: 5
+Next Floor: 4
+Elevator Passenger Units: 4
+ Elevator Weight Units: 4
+Waiting Passenger Units: 18
+  Waiting Weight Units: 20
+Passengers Serviced: 15
+Movement State: UP
+Current Floor: 6
+Next Floor: 8
+Elevator Passenger Units: 8
+ Elevator Weight Units: 9
+Waiting Passenger Units: 10
+  Waiting Weight Units: 11
+Passengers Serviced: 18
+Movement State: DOWN
+Current Floor: 6
+Next Floor: 3
+Elevator Passenger Units: 7
+ Elevator Weight Units: 8
+Waiting Passenger Units: 10
+  Waiting Weight Units: 11
+Passengers Serviced: 19
+Movement State: LOADING
+Current Floor: 2
+Next Floor: 2
+Elevator Passenger Units: 2
+ Elevator Weight Units: 2
+Waiting Passenger Units: 10
+  Waiting Weight Units: 11
+Passengers Serviced: 22
+Movement State: UP
+Current Floor: 6
+Next Floor: 10
+Elevator Passenger Units: 5
+ Elevator Weight Units: 5
+Waiting Passenger Units: 7
+  Waiting Weight Units: 8
+Passengers Serviced: 22
+Movement State: LOADING
+Current Floor: 10
+Next Floor: 10
+Elevator Passenger Units: 2
+ Elevator Weight Units: 2
+Waiting Passenger Units: 5
+  Waiting Weight Units: 6
+Passengers Serviced: 25
+Movement State: DOWN
+Current Floor: 6
+Next Floor: 1
+Elevator Passenger Units: 2
+ Elevator Weight Units: 2
+Waiting Passenger Units: 5
+  Waiting Weight Units: 6
+Passengers Serviced: 25
+Movement State: DOWN
+Current Floor: 2
+Next Floor: 1
+Elevator Passenger Units: 2
+ Elevator Weight Units: 2
+Waiting Passenger Units: 5
+  Waiting Weight Units: 6
+Passengers Serviced: 25
+Movement State: UP
+Current Floor: 3
+Next Floor: 7
+Elevator Passenger Units: 2
+ Elevator Weight Units: 2
+Waiting Passenger Units: 3
+  Waiting Weight Units: 4
+Passengers Serviced: 26
+Movement State: LOADING
+Current Floor: 7
+Next Floor: 7
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 3
+  Waiting Weight Units: 4
+Passengers Serviced: 27
+Movement State: LOADING
+Current Floor: 3
+Next Floor: 3
+Elevator Passenger Units: 1
+ Elevator Weight Units: 1
+Waiting Passenger Units: 2
+  Waiting Weight Units: 3
+Passengers Serviced: 27
+Movement State: UP
+Current Floor: 6
+Next Floor: 10
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 2
+  Waiting Weight Units: 3
+Passengers Serviced: 28
+Movement State: LOADING
+Current Floor: 10
+Next Floor: 10
+Elevator Passenger Units: 2
+ Elevator Weight Units: 3
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 28
+Movement State: DOWN
+Current Floor: 6
+Next Floor: 1
+Elevator Passenger Units: 2
+ Elevator Weight Units: 3
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 28
+Movement State: DOWN
+Current Floor: 2
+Next Floor: 1
+Elevator Passenger Units: 2
+ Elevator Weight Units: 3
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 28
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 29
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 29
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 29
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 29
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 29
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 29
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 29
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 29
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 29
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 29
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 29
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 29
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 29
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 29
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 29
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 29
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 29
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 29
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 29
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 29
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 29
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 29
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 29
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 29
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 29
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 29
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 29
+Movement State: IDLE
+Current Floor: 1
+Next Floor: 1
+Elevator Passenger Units: 0
+ Elevator Weight Units: 0
+Waiting Passenger Units: 0
+  Waiting Weight Units: 0
+Passengers Serviced: 29

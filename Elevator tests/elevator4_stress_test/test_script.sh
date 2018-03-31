@@ -5,13 +5,14 @@
 
 for number in {1..10}
 do
-	cat /proc/elevator >> lastrun.txt
 	cat /proc/elevator
 	sleep 6
 done
 
-./consumer.x --stop
 cat /proc/elevator
 
+./consumer.x --stop
+
+cat /proc/elevator
 
 exit 0

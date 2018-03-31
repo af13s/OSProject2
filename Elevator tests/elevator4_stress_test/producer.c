@@ -68,7 +68,7 @@ int rnd_dest(int start) {
 /******************************************************************************/
 
 int main(int argc, char **argv) {
-	const int times = 1000000; 		// 1 million
+	const int times = 100000; 		// 1 million
 	const int total_time = 60; 	// 1 min
 	
 	int i;
